@@ -212,142 +212,6 @@
 		0EF8634E1C19E02700006D2D /* WMFEmptyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EF8634D1C19E02700006D2D /* WMFEmptyView.xib */; };
 		0EF863511C19E4F100006D2D /* WMFEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF863501C19E4F100006D2D /* WMFEmptyView.m */; };
 		19A175F095F5197BA20EA8BA /* NSUserActivity+WMFExtensionsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A172FA6AE61E76FCEF4259 /* NSUserActivity+WMFExtensionsTest.m */; };
-		34B9227526B0039B00A01762 /* GrowingTrackConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9213326B0039800A01762 /* GrowingTrackConfiguration.m */; };
-		34B9227626B0039B00A01762 /* GrowingWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9213426B0039800A01762 /* GrowingWindow.m */; };
-		34B9227726B0039B00A01762 /* GrowingAttributesConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9213526B0039800A01762 /* GrowingAttributesConst.m */; };
-		34B9227826B0039B00A01762 /* GrowingSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9213926B0039800A01762 /* GrowingSwizzle.m */; };
-		34B9227926B0039B00A01762 /* GrowingSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9213A26B0039800A01762 /* GrowingSwizzler.m */; };
-		34B9227A26B0039B00A01762 /* NSURLSession+GrowingURLSessionHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9213D26B0039800A01762 /* NSURLSession+GrowingURLSessionHelper.m */; };
-		34B9227B26B0039B00A01762 /* GrowingNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9213E26B0039800A01762 /* GrowingNetworkManager.m */; };
-		34B9227C26B0039B00A01762 /* NSURLSessionDataTask+GrowingURLSessionDataTaskHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9214126B0039800A01762 /* NSURLSessionDataTask+GrowingURLSessionDataTaskHelper.m */; };
-		34B9227D26B0039B00A01762 /* GrowingSRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9214426B0039800A01762 /* GrowingSRWebSocket.m */; };
-		34B9227E26B0039B00A01762 /* GrowingLZ4.c in Sources */ = {isa = PBXBuildFile; fileRef = 34B9214726B0039800A01762 /* GrowingLZ4.c */; };
-		34B9227F26B0039B00A01762 /* GrowingNetworkInterfaceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9214926B0039800A01762 /* GrowingNetworkInterfaceManager.m */; };
-		34B9228026B0039B00A01762 /* GrowingNetworkConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9214D26B0039900A01762 /* GrowingNetworkConfig.m */; };
-		34B9228126B0039B00A01762 /* GrowingEventRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9214E26B0039900A01762 /* GrowingEventRequest.m */; };
-		34B9228226B0039B00A01762 /* GrowingLoginRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9214F26B0039900A01762 /* GrowingLoginRequest.m */; };
-		34B9228326B0039B00A01762 /* GrowingEventRequestAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9215126B0039900A01762 /* GrowingEventRequestAdapter.m */; };
-		34B9228426B0039B00A01762 /* GrowingRequestAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9215426B0039900A01762 /* GrowingRequestAdapter.m */; };
-		34B9228526B0039B00A01762 /* GrowingFileStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9215C26B0039900A01762 /* GrowingFileStorage.m */; };
-		34B9228626B0039B00A01762 /* GrowingUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9215D26B0039900A01762 /* GrowingUserDefaults.m */; };
-		34B9228726B0039B00A01762 /* GrowingDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9216326B0039900A01762 /* GrowingDeviceInfo.m */; };
-		34B9228826B0039B00A01762 /* GrowingDynamicProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9216626B0039900A01762 /* GrowingDynamicProxy.m */; };
-		34B9228926B0039B00A01762 /* GrowingArgumentChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9216726B0039900A01762 /* GrowingArgumentChecker.m */; };
-		34B9228A26B0039B00A01762 /* GrowingUserIdentifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9216826B0039900A01762 /* GrowingUserIdentifier.m */; };
-		34B9228B26B0039B00A01762 /* GrowingKeyChainWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9216926B0039900A01762 /* GrowingKeyChainWrapper.m */; };
-		34B9228C26B0039B00A01762 /* GrowingTimeUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9216B26B0039900A01762 /* GrowingTimeUtil.m */; };
-		34B9228D26B0039B00A01762 /* GrowingSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9217126B0039900A01762 /* GrowingSession.m */; };
-		34B9228E26B0039B00A01762 /* GrowingApplicationEventManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9217326B0039900A01762 /* GrowingApplicationEventManager.m */; };
-		34B9228F26B0039B00A01762 /* GrowingConfigurationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9217426B0039900A01762 /* GrowingConfigurationManager.m */; };
-		34B9229026B0039B00A01762 /* GrowingStatusBarEventManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9217626B0039900A01762 /* GrowingStatusBarEventManager.m */; };
-		34B9229126B0039B00A01762 /* GrowingStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9217B26B0039900A01762 /* GrowingStatusBar.m */; };
-		34B9229226B0039B00A01762 /* GrowingAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9217C26B0039900A01762 /* GrowingAlert.m */; };
-		34B9229326B0039B00A01762 /* GrowingDispatchManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9218126B0039900A01762 /* GrowingDispatchManager.m */; };
-		34B9229426B0039B00A01762 /* GrowingThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9218326B0039900A01762 /* GrowingThread.m */; };
-		34B9229526B0039B00A01762 /* GrowingVisitorAttributesEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9218526B0039900A01762 /* GrowingVisitorAttributesEvent.m */; };
-		34B9229626B0039B00A01762 /* GrowingAppCloseEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9218626B0039900A01762 /* GrowingAppCloseEvent.m */; };
-		34B9229726B0039B00A01762 /* GrowingPersistenceDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9218926B0039900A01762 /* GrowingPersistenceDataProvider.m */; };
-		34B9229826B0039B00A01762 /* GrowingEventPersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9218A26B0039900A01762 /* GrowingEventPersistence.m */; };
-		34B9229926B0039B00A01762 /* GrowingLoginUserAttributesEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9218F26B0039900A01762 /* GrowingLoginUserAttributesEvent.m */; };
-		34B9229A26B0039B00A01762 /* GrowingTrackEventType.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9219226B0039900A01762 /* GrowingTrackEventType.m */; };
-		34B9229B26B0039B00A01762 /* GrowingEventDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9219326B0039900A01762 /* GrowingEventDataBase.m */; };
-		34B9229C26B0039B00A01762 /* GrowingEventGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9219726B0039900A01762 /* GrowingEventGenerator.m */; };
-		34B9229D26B0039B00A01762 /* GrowingEventManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9219A26B0039900A01762 /* GrowingEventManager.m */; };
-		34B9229E26B0039B00A01762 /* GrowingCustomEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9219B26B0039900A01762 /* GrowingCustomEvent.m */; };
-		34B9229F26B0039B00A01762 /* GrowingDataTraffic.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9219D26B0039900A01762 /* GrowingDataTraffic.m */; };
-		34B922A026B0039B00A01762 /* GrowingConversionVariableEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9219E26B0039900A01762 /* GrowingConversionVariableEvent.m */; };
-		34B922A126B0039B00A01762 /* GrowingBaseEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B921A426B0039900A01762 /* GrowingBaseEvent.m */; };
-		34B922A226B0039B00A01762 /* GrowingBaseAttributesEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B921A626B0039900A01762 /* GrowingBaseAttributesEvent.m */; };
-		34B922A326B0039B00A01762 /* GrowingBaseEvent+SendPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B921A726B0039900A01762 /* GrowingBaseEvent+SendPolicy.m */; };
-		34B922A426B0039B00A01762 /* GrowingEventChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B921A826B0039900A01762 /* GrowingEventChannel.m */; };
-		34B922A526B0039B00A01762 /* GrowingVisitEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B921A926B0039900A01762 /* GrowingVisitEvent.m */; };
-		34B922A626B0039B00A01762 /* GrowingAppLifecycle.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B921AB26B0039900A01762 /* GrowingAppLifecycle.m */; };
-		34B922A726B0039B00A01762 /* UIApplication+GrowingNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B921AE26B0039900A01762 /* UIApplication+GrowingNode.m */; };
-		34B922A826B0039B00A01762 /* NSURL+GrowingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B921B426B0039900A01762 /* NSURL+GrowingHelper.m */; };
-		34B922A926B0039B00A01762 /* NSObject+GrowingIvarHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B921BB26B0039900A01762 /* NSObject+GrowingIvarHelper.m */; };
-		34B922AA26B0039B00A01762 /* NSData+GrowingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B921BC26B0039900A01762 /* NSData+GrowingHelper.m */; };
-		34B922AB26B0039B00A01762 /* UIView+GrowingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B921BD26B0039900A01762 /* UIView+GrowingHelper.m */; };
-		34B922AC26B0039B00A01762 /* UIImage+GrowingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B921BE26B0039900A01762 /* UIImage+GrowingHelper.m */; };
-		34B922AD26B0039B00A01762 /* NSString+GrowingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B921BF26B0039900A01762 /* NSString+GrowingHelper.m */; };
-		34B922AE26B0039B00A01762 /* UIControl+GrowingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B921C126B0039900A01762 /* UIControl+GrowingHelper.m */; };
-		34B922AF26B0039B00A01762 /* NSDictionary+GrowingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B921C226B0039900A01762 /* NSDictionary+GrowingHelper.m */; };
-		34B922B026B0039B00A01762 /* UIWindow+GrowingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B921C326B0039900A01762 /* UIWindow+GrowingHelper.m */; };
-		34B922B126B0039B00A01762 /* NSArray+GrowingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B921C426B0039900A01762 /* NSArray+GrowingHelper.m */; };
-		34B922B226B0039B00A01762 /* UIApplication+GrowingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B921C626B0039900A01762 /* UIApplication+GrowingHelper.m */; };
-		34B922B326B0039B00A01762 /* GrowingASLLoggerFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B921C826B0039900A01762 /* GrowingASLLoggerFormat.m */; };
-		34B922B426B0039B00A01762 /* GrowingWSLoggerFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B921C926B0039900A01762 /* GrowingWSLoggerFormat.m */; };
-		34B922B526B0039B00A01762 /* GrowingLoggerNames.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B921D226B0039900A01762 /* GrowingLoggerNames.m */; };
-		34B922B626B0039B00A01762 /* GrowingLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B921D426B0039900A01762 /* GrowingLog.m */; };
-		34B922B726B0039B00A01762 /* GrowingWSLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B921D526B0039900A01762 /* GrowingWSLogger.m */; };
-		34B922B826B0039B00A01762 /* GrowingTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B921D626B0039900A01762 /* GrowingTTYLogger.m */; };
-		34B922B926B0039B00A01762 /* GrowingASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B921D726B0039900A01762 /* GrowingASLLogger.m */; };
-		34B922BA26B0039B00A01762 /* GrowingReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B921DC26B0039900A01762 /* GrowingReachability.m */; };
-		34B922BB26B0039B00A01762 /* GrowingFMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B921E026B0039900A01762 /* GrowingFMDatabasePool.m */; };
-		34B922BC26B0039B00A01762 /* GrowingFMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B921E226B0039900A01762 /* GrowingFMDatabase.m */; };
-		34B922BD26B0039B00A01762 /* GrowingFMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B921E326B0039900A01762 /* GrowingFMDatabaseAdditions.m */; };
-		34B922BE26B0039B00A01762 /* GrowingFMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B921E526B0039900A01762 /* GrowingFMDatabaseQueue.m */; };
-		34B922BF26B0039B00A01762 /* GrowingFMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B921E626B0039900A01762 /* GrowingFMResultSet.m */; };
-		34B922C026B0039B00A01762 /* GrowingSceneDelegateAutotracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B921EA26B0039900A01762 /* GrowingSceneDelegateAutotracker.m */; };
-		34B922C126B0039B00A01762 /* GrowingAppDelegateAutotracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B921EB26B0039900A01762 /* GrowingAppDelegateAutotracker.m */; };
-		34B922C226B0039B00A01762 /* GrowingDeepLinkHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B921ED26B0039900A01762 /* GrowingDeepLinkHandler.m */; };
-		34B922C326B0039B00A01762 /* GrowingWebWatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B921F126B0039900A01762 /* GrowingWebWatcher.m */; };
-		34B922C426B0039B00A01762 /* GrowingMobileDebugger.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B921F426B0039A00A01762 /* GrowingMobileDebugger.m */; };
-		34B922C526B0039B00A01762 /* GrowingDebuggerEventQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B921F626B0039A00A01762 /* GrowingDebuggerEventQueue.m */; };
-		34B922C626B0039B00A01762 /* GrowingRealTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B921F726B0039A00A01762 /* GrowingRealTracker.m */; };
-		34B922C726B0039B00A01762 /* GrowingPageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9220026B0039A00A01762 /* GrowingPageManager.m */; };
-		34B922C826B0039B00A01762 /* UIViewController+GrowingPageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9220126B0039A00A01762 /* UIViewController+GrowingPageHelper.m */; };
-		34B922C926B0039B00A01762 /* GrowingPageGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9220226B0039A00A01762 /* GrowingPageGroup.m */; };
-		34B922CA26B0039B00A01762 /* GrowingPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9220326B0039A00A01762 /* GrowingPage.m */; };
-		34B922CB26B0039B00A01762 /* GrowingStatusBarAutotracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9220526B0039A00A01762 /* GrowingStatusBarAutotracker.m */; };
-		34B922CC26B0039B00A01762 /* GrowingWebCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9220926B0039A00A01762 /* GrowingWebCircle.m */; };
-		34B922CD26B0039B00A01762 /* GrowingWebCircleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9220A26B0039A00A01762 /* GrowingWebCircleElement.m */; };
-		34B922CE26B0039B00A01762 /* GrowingAutotrackConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9220B26B0039A00A01762 /* GrowingAutotrackConfiguration.m */; };
-		34B922CF26B0039B00A01762 /* UIApplication+GrowingAutotracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9220D26B0039A00A01762 /* UIApplication+GrowingAutotracker.m */; };
-		34B922D026B0039B00A01762 /* UIView+GrowingAutotracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9221426B0039A00A01762 /* UIView+GrowingAutotracker.m */; };
-		34B922D126B0039B00A01762 /* NSNotificationCenter+GrowingAutotracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9221826B0039A00A01762 /* NSNotificationCenter+GrowingAutotracker.m */; };
-		34B922D226B0039B00A01762 /* UIViewController+GrowingAutotracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9221926B0039A00A01762 /* UIViewController+GrowingAutotracker.m */; };
-		34B922D326B0039B00A01762 /* UIAlertController+GrowingAutotracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9221A26B0039A00A01762 /* UIAlertController+GrowingAutotracker.m */; };
-		34B922D426B0039B00A01762 /* WKWebView+GrowingAutotracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9221B26B0039A00A01762 /* WKWebView+GrowingAutotracker.m */; };
-		34B922D526B0039B00A01762 /* UICollectionView+GrowingAutotracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9221D26B0039A00A01762 /* UICollectionView+GrowingAutotracker.m */; };
-		34B922D626B0039B00A01762 /* UISegmentedControl+GrowingAutotracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9221E26B0039A00A01762 /* UISegmentedControl+GrowingAutotracker.m */; };
-		34B922D726B0039B00A01762 /* UITapGestureRecognizer+GrowingAutotracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9221F26B0039A00A01762 /* UITapGestureRecognizer+GrowingAutotracker.m */; };
-		34B922D826B0039B00A01762 /* UITableView+GrowingAutotracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9222026B0039A00A01762 /* UITableView+GrowingAutotracker.m */; };
-		34B922D926B0039B00A01762 /* GrowingViewControllerLifecycle.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9222326B0039A00A01762 /* GrowingViewControllerLifecycle.m */; };
-		34B922DA26B0039B00A01762 /* GrowingNodeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9222626B0039A00A01762 /* GrowingNodeHelper.m */; };
-		34B922DB26B0039B00A01762 /* GrowingViewNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9222726B0039A00A01762 /* GrowingViewNode.m */; };
-		34B922DC26B0039B00A01762 /* UINavigationController+GrowingNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9222C26B0039A00A01762 /* UINavigationController+GrowingNode.m */; };
-		34B922DD26B0039B00A01762 /* UILabel+GrowingNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9222F26B0039A00A01762 /* UILabel+GrowingNode.m */; };
-		34B922DE26B0039B00A01762 /* UITableView+GrowingNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9223226B0039A00A01762 /* UITableView+GrowingNode.m */; };
-		34B922DF26B0039B00A01762 /* UIAlertController+GrowingNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9223326B0039A00A01762 /* UIAlertController+GrowingNode.m */; };
-		34B922E026B0039B00A01762 /* UIControl+GrowingNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9223426B0039A00A01762 /* UIControl+GrowingNode.m */; };
-		34B922E126B0039B00A01762 /* UIWindow+GrowingNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9223626B0039A00A01762 /* UIWindow+GrowingNode.m */; };
-		34B922E226B0039B00A01762 /* UIImageView+GrowingNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9223726B0039A00A01762 /* UIImageView+GrowingNode.m */; };
-		34B922E326B0039B00A01762 /* UITabBarController+GrowingNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9223926B0039A00A01762 /* UITabBarController+GrowingNode.m */; };
-		34B922E426B0039B00A01762 /* UIView+GrowingNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9223B26B0039A00A01762 /* UIView+GrowingNode.m */; };
-		34B922E526B0039B00A01762 /* UISegmentedControl+GrowingNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9223C26B0039A00A01762 /* UISegmentedControl+GrowingNode.m */; };
-		34B922E626B0039B00A01762 /* UIViewController+GrowingNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9223D26B0039A00A01762 /* UIViewController+GrowingNode.m */; };
-		34B922E726B0039B00A01762 /* UICollectionView+GrowingNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9224126B0039A00A01762 /* UICollectionView+GrowingNode.m */; };
-		34B922E826B0039B00A01762 /* GrowingViewChangeProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9224326B0039A00A01762 /* GrowingViewChangeProvider.m */; };
-		34B922E926B0039B00A01762 /* GrowingViewClickProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9224426B0039A00A01762 /* GrowingViewClickProvider.m */; };
-		34B922EA26B0039B00A01762 /* GrowingNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9224526B0039A00A01762 /* GrowingNode.m */; };
-		34B922EB26B0039B00A01762 /* GrowingNodeItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9224926B0039A00A01762 /* GrowingNodeItem.m */; };
-		34B922EC26B0039B00A01762 /* GrowingRealAutotracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9224B26B0039A00A01762 /* GrowingRealAutotracker.m */; };
-		34B922ED26B0039B00A01762 /* GrowingImpressionTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9225026B0039A00A01762 /* GrowingImpressionTrack.m */; };
-		34B922EE26B0039B00A01762 /* GrowingPageEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9225226B0039A00A01762 /* GrowingPageEvent.m */; };
-		34B922EF26B0039B00A01762 /* GrowingAutotrackEventType.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9225326B0039A00A01762 /* GrowingAutotrackEventType.m */; };
-		34B922F026B0039B00A01762 /* GrowingViewElementEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9225426B0039A00A01762 /* GrowingViewElementEvent.m */; };
-		34B922F126B0039B00A01762 /* GrowingPageCustomEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9225526B0039A00A01762 /* GrowingPageCustomEvent.m */; };
-		34B922F226B0039B00A01762 /* GrowingPageAttributesEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9225626B0039A00A01762 /* GrowingPageAttributesEvent.m */; };
-		34B922F326B0039B00A01762 /* GrowingWKWebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9225E26B0039A00A01762 /* GrowingWKWebViewJavascriptBridge.m */; };
-		34B922F426B0039B00A01762 /* GrowingHybridBridgeProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9225F26B0039A00A01762 /* GrowingHybridBridgeProvider.m */; };
-		34B922F526B0039B00A01762 /* GrowingHybridCustomEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9226426B0039A00A01762 /* GrowingHybridCustomEvent.m */; };
-		34B922F626B0039B00A01762 /* GrowingHybridPageAttributesEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9226526B0039A00A01762 /* GrowingHybridPageAttributesEvent.m */; };
-		34B922F726B0039B00A01762 /* GrowingHybridViewElementEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9226726B0039A00A01762 /* GrowingHybridViewElementEvent.m */; };
-		34B922F826B0039B00A01762 /* GrowingHybridEventType.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9226926B0039A00A01762 /* GrowingHybridEventType.m */; };
-		34B922F926B0039B00A01762 /* GrowingHybridPageEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9226C26B0039A00A01762 /* GrowingHybridPageEvent.m */; };
-		34B922FA26B0039B00A01762 /* GrowingWebViewJavascriptBridgeConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9226E26B0039A00A01762 /* GrowingWebViewJavascriptBridgeConfiguration.m */; };
-		34B922FB26B0039B00A01762 /* GrowingWKWebViewJavascriptBridge_JS.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9227126B0039A00A01762 /* GrowingWKWebViewJavascriptBridge_JS.m */; };
-		34B922FC26B0039B00A01762 /* GrowingAutotracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B9227426B0039A00A01762 /* GrowingAutotracker.m */; };
 		34B922FE26B0062700A01762 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34B922FD26B0062700A01762 /* CoreTelephony.framework */; };
 		34B9230026B0064100A01762 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 34B922FF26B0063600A01762 /* libsqlite3.tbd */; };
 		34B9230226B0065000A01762 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34B9230126B0064F00A01762 /* Security.framework */; };
@@ -3751,290 +3615,6 @@
 		0EF8634F1C19E4F100006D2D /* WMFEmptyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WMFEmptyView.h; path = Wikipedia/Code/WMFEmptyView.h; sourceTree = SOURCE_ROOT; };
 		0EF863501C19E4F100006D2D /* WMFEmptyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WMFEmptyView.m; path = Wikipedia/Code/WMFEmptyView.m; sourceTree = SOURCE_ROOT; };
 		19A172FA6AE61E76FCEF4259 /* NSUserActivity+WMFExtensionsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserActivity+WMFExtensionsTest.m"; sourceTree = "<group>"; };
-		34B9213326B0039800A01762 /* GrowingTrackConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingTrackConfiguration.m; sourceTree = "<group>"; };
-		34B9213426B0039800A01762 /* GrowingWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingWindow.m; sourceTree = "<group>"; };
-		34B9213526B0039800A01762 /* GrowingAttributesConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingAttributesConst.m; sourceTree = "<group>"; };
-		34B9213726B0039800A01762 /* GrowingSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingSwizzle.h; sourceTree = "<group>"; };
-		34B9213826B0039800A01762 /* GrowingSwizzler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingSwizzler.h; sourceTree = "<group>"; };
-		34B9213926B0039800A01762 /* GrowingSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingSwizzle.m; sourceTree = "<group>"; };
-		34B9213A26B0039800A01762 /* GrowingSwizzler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingSwizzler.m; sourceTree = "<group>"; };
-		34B9213D26B0039800A01762 /* NSURLSession+GrowingURLSessionHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLSession+GrowingURLSessionHelper.m"; sourceTree = "<group>"; };
-		34B9213E26B0039800A01762 /* GrowingNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingNetworkManager.m; sourceTree = "<group>"; };
-		34B9213F26B0039800A01762 /* NSURLSessionDataTask+GrowingURLSessionDataTaskHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLSessionDataTask+GrowingURLSessionDataTaskHelper.h"; sourceTree = "<group>"; };
-		34B9214026B0039800A01762 /* NSURLSession+GrowingURLSessionHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLSession+GrowingURLSessionHelper.h"; sourceTree = "<group>"; };
-		34B9214126B0039800A01762 /* NSURLSessionDataTask+GrowingURLSessionDataTaskHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLSessionDataTask+GrowingURLSessionDataTaskHelper.m"; sourceTree = "<group>"; };
-		34B9214226B0039800A01762 /* GrowingNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingNetworkManager.h; sourceTree = "<group>"; };
-		34B9214426B0039800A01762 /* GrowingSRWebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingSRWebSocket.m; sourceTree = "<group>"; };
-		34B9214526B0039800A01762 /* GrowingSRWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingSRWebSocket.h; sourceTree = "<group>"; };
-		34B9214726B0039800A01762 /* GrowingLZ4.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GrowingLZ4.c; sourceTree = "<group>"; };
-		34B9214826B0039800A01762 /* GrowingLZ4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingLZ4.h; sourceTree = "<group>"; };
-		34B9214926B0039800A01762 /* GrowingNetworkInterfaceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingNetworkInterfaceManager.m; sourceTree = "<group>"; };
-		34B9214B26B0039800A01762 /* GrowingURLSessionDataTaskProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingURLSessionDataTaskProtocol.h; sourceTree = "<group>"; };
-		34B9214C26B0039900A01762 /* GrowingRequestProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingRequestProtocol.h; sourceTree = "<group>"; };
-		34B9214D26B0039900A01762 /* GrowingNetworkConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingNetworkConfig.m; sourceTree = "<group>"; };
-		34B9214E26B0039900A01762 /* GrowingEventRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingEventRequest.m; sourceTree = "<group>"; };
-		34B9214F26B0039900A01762 /* GrowingLoginRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingLoginRequest.m; sourceTree = "<group>"; };
-		34B9215126B0039900A01762 /* GrowingEventRequestAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingEventRequestAdapter.m; sourceTree = "<group>"; };
-		34B9215226B0039900A01762 /* GrowingRequestAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingRequestAdapter.h; sourceTree = "<group>"; };
-		34B9215326B0039900A01762 /* GrowingEventRequestAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingEventRequestAdapter.h; sourceTree = "<group>"; };
-		34B9215426B0039900A01762 /* GrowingRequestAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingRequestAdapter.m; sourceTree = "<group>"; };
-		34B9215526B0039900A01762 /* GrowingURLSessionProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingURLSessionProtocol.h; sourceTree = "<group>"; };
-		34B9215626B0039900A01762 /* GrowingNetworkConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingNetworkConfig.h; sourceTree = "<group>"; };
-		34B9215726B0039900A01762 /* GrowingEventRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingEventRequest.h; sourceTree = "<group>"; };
-		34B9215826B0039900A01762 /* GrowingLoginRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingLoginRequest.h; sourceTree = "<group>"; };
-		34B9215926B0039900A01762 /* GrowingNetworkInterfaceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingNetworkInterfaceManager.h; sourceTree = "<group>"; };
-		34B9215B26B0039900A01762 /* GrowingUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingUserDefaults.h; sourceTree = "<group>"; };
-		34B9215C26B0039900A01762 /* GrowingFileStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingFileStorage.m; sourceTree = "<group>"; };
-		34B9215D26B0039900A01762 /* GrowingUserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingUserDefaults.m; sourceTree = "<group>"; };
-		34B9215E26B0039900A01762 /* GrowingCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingCrypto.h; sourceTree = "<group>"; };
-		34B9215F26B0039900A01762 /* GrowingFileStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingFileStorage.h; sourceTree = "<group>"; };
-		34B9216026B0039900A01762 /* GrowingRealTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingRealTracker.h; sourceTree = "<group>"; };
-		34B9216226B0039900A01762 /* GrowingTimeUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTimeUtil.h; sourceTree = "<group>"; };
-		34B9216326B0039900A01762 /* GrowingDeviceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingDeviceInfo.m; sourceTree = "<group>"; };
-		34B9216426B0039900A01762 /* GrowingUserIdentifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingUserIdentifier.h; sourceTree = "<group>"; };
-		34B9216526B0039900A01762 /* GrowingKeyChainWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingKeyChainWrapper.h; sourceTree = "<group>"; };
-		34B9216626B0039900A01762 /* GrowingDynamicProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingDynamicProxy.m; sourceTree = "<group>"; };
-		34B9216726B0039900A01762 /* GrowingArgumentChecker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingArgumentChecker.m; sourceTree = "<group>"; };
-		34B9216826B0039900A01762 /* GrowingUserIdentifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingUserIdentifier.m; sourceTree = "<group>"; };
-		34B9216926B0039900A01762 /* GrowingKeyChainWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingKeyChainWrapper.m; sourceTree = "<group>"; };
-		34B9216A26B0039900A01762 /* GrowingDeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingDeviceInfo.h; sourceTree = "<group>"; };
-		34B9216B26B0039900A01762 /* GrowingTimeUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingTimeUtil.m; sourceTree = "<group>"; };
-		34B9216C26B0039900A01762 /* GrowingDynamicProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingDynamicProxy.h; sourceTree = "<group>"; };
-		34B9216D26B0039900A01762 /* GrowingArgumentChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingArgumentChecker.h; sourceTree = "<group>"; };
-		34B9216E26B0039900A01762 /* GrowingWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingWindow.h; sourceTree = "<group>"; };
-		34B9217026B0039900A01762 /* GrowingConfigurationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingConfigurationManager.h; sourceTree = "<group>"; };
-		34B9217126B0039900A01762 /* GrowingSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingSession.m; sourceTree = "<group>"; };
-		34B9217226B0039900A01762 /* GrowingStatusBarEventManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingStatusBarEventManager.h; sourceTree = "<group>"; };
-		34B9217326B0039900A01762 /* GrowingApplicationEventManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingApplicationEventManager.m; sourceTree = "<group>"; };
-		34B9217426B0039900A01762 /* GrowingConfigurationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingConfigurationManager.m; sourceTree = "<group>"; };
-		34B9217526B0039900A01762 /* GrowingSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingSession.h; sourceTree = "<group>"; };
-		34B9217626B0039900A01762 /* GrowingStatusBarEventManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingStatusBarEventManager.m; sourceTree = "<group>"; };
-		34B9217726B0039900A01762 /* GrowingApplicationEventManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingApplicationEventManager.h; sourceTree = "<group>"; };
-		34B9217826B0039900A01762 /* GrowingTrackConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTrackConfiguration.h; sourceTree = "<group>"; };
-		34B9217A26B0039900A01762 /* GrowingAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingAlert.h; sourceTree = "<group>"; };
-		34B9217B26B0039900A01762 /* GrowingStatusBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingStatusBar.m; sourceTree = "<group>"; };
-		34B9217C26B0039900A01762 /* GrowingAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingAlert.m; sourceTree = "<group>"; };
-		34B9217D26B0039900A01762 /* GrowingStatusBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingStatusBar.h; sourceTree = "<group>"; };
-		34B9217E26B0039900A01762 /* GrowingAttributesConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingAttributesConst.h; sourceTree = "<group>"; };
-		34B9218026B0039900A01762 /* GrowingThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingThread.h; sourceTree = "<group>"; };
-		34B9218126B0039900A01762 /* GrowingDispatchManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingDispatchManager.m; sourceTree = "<group>"; };
-		34B9218226B0039900A01762 /* GrowingDispatchManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingDispatchManager.h; sourceTree = "<group>"; };
-		34B9218326B0039900A01762 /* GrowingThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingThread.m; sourceTree = "<group>"; };
-		34B9218526B0039900A01762 /* GrowingVisitorAttributesEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingVisitorAttributesEvent.m; sourceTree = "<group>"; };
-		34B9218626B0039900A01762 /* GrowingAppCloseEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingAppCloseEvent.m; sourceTree = "<group>"; };
-		34B9218726B0039900A01762 /* GrowingEventGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingEventGenerator.h; sourceTree = "<group>"; };
-		34B9218926B0039900A01762 /* GrowingPersistenceDataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingPersistenceDataProvider.m; sourceTree = "<group>"; };
-		34B9218A26B0039900A01762 /* GrowingEventPersistence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingEventPersistence.m; sourceTree = "<group>"; };
-		34B9218B26B0039900A01762 /* GrowingEventPersistence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingEventPersistence.h; sourceTree = "<group>"; };
-		34B9218C26B0039900A01762 /* GrowingPersistenceDataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingPersistenceDataProvider.h; sourceTree = "<group>"; };
-		34B9218D26B0039900A01762 /* GrowingConversionVariableEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingConversionVariableEvent.h; sourceTree = "<group>"; };
-		34B9218E26B0039900A01762 /* GrowingDataTraffic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingDataTraffic.h; sourceTree = "<group>"; };
-		34B9218F26B0039900A01762 /* GrowingLoginUserAttributesEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingLoginUserAttributesEvent.m; sourceTree = "<group>"; };
-		34B9219026B0039900A01762 /* GrowingCustomEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingCustomEvent.h; sourceTree = "<group>"; };
-		34B9219126B0039900A01762 /* GrowingEventManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingEventManager.h; sourceTree = "<group>"; };
-		34B9219226B0039900A01762 /* GrowingTrackEventType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingTrackEventType.m; sourceTree = "<group>"; };
-		34B9219326B0039900A01762 /* GrowingEventDataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingEventDataBase.m; sourceTree = "<group>"; };
-		34B9219426B0039900A01762 /* GrowingNodeProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingNodeProtocol.h; sourceTree = "<group>"; };
-		34B9219526B0039900A01762 /* GrowingVisitEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingVisitEvent.h; sourceTree = "<group>"; };
-		34B9219626B0039900A01762 /* GrowingEventChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingEventChannel.h; sourceTree = "<group>"; };
-		34B9219726B0039900A01762 /* GrowingEventGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingEventGenerator.m; sourceTree = "<group>"; };
-		34B9219826B0039900A01762 /* GrowingAppCloseEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingAppCloseEvent.h; sourceTree = "<group>"; };
-		34B9219926B0039900A01762 /* GrowingVisitorAttributesEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingVisitorAttributesEvent.h; sourceTree = "<group>"; };
-		34B9219A26B0039900A01762 /* GrowingEventManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingEventManager.m; sourceTree = "<group>"; };
-		34B9219B26B0039900A01762 /* GrowingCustomEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingCustomEvent.m; sourceTree = "<group>"; };
-		34B9219C26B0039900A01762 /* GrowingLoginUserAttributesEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingLoginUserAttributesEvent.h; sourceTree = "<group>"; };
-		34B9219D26B0039900A01762 /* GrowingDataTraffic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingDataTraffic.m; sourceTree = "<group>"; };
-		34B9219E26B0039900A01762 /* GrowingConversionVariableEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingConversionVariableEvent.m; sourceTree = "<group>"; };
-		34B9219F26B0039900A01762 /* GrowingEventDataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingEventDataBase.h; sourceTree = "<group>"; };
-		34B921A026B0039900A01762 /* GrowingTrackEventType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTrackEventType.h; sourceTree = "<group>"; };
-		34B921A226B0039900A01762 /* GrowingBaseEvent+SendPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GrowingBaseEvent+SendPolicy.h"; sourceTree = "<group>"; };
-		34B921A326B0039900A01762 /* GrowingBaseAttributesEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingBaseAttributesEvent.h; sourceTree = "<group>"; };
-		34B921A426B0039900A01762 /* GrowingBaseEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingBaseEvent.m; sourceTree = "<group>"; };
-		34B921A526B0039900A01762 /* GrowingBaseEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingBaseEvent.h; sourceTree = "<group>"; };
-		34B921A626B0039900A01762 /* GrowingBaseAttributesEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingBaseAttributesEvent.m; sourceTree = "<group>"; };
-		34B921A726B0039900A01762 /* GrowingBaseEvent+SendPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GrowingBaseEvent+SendPolicy.m"; sourceTree = "<group>"; };
-		34B921A826B0039900A01762 /* GrowingEventChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingEventChannel.m; sourceTree = "<group>"; };
-		34B921A926B0039900A01762 /* GrowingVisitEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingVisitEvent.m; sourceTree = "<group>"; };
-		34B921AB26B0039900A01762 /* GrowingAppLifecycle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingAppLifecycle.m; sourceTree = "<group>"; };
-		34B921AC26B0039900A01762 /* UIApplication+GrowingNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+GrowingNode.h"; sourceTree = "<group>"; };
-		34B921AD26B0039900A01762 /* GrowingAppLifecycle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingAppLifecycle.h; sourceTree = "<group>"; };
-		34B921AE26B0039900A01762 /* UIApplication+GrowingNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+GrowingNode.m"; sourceTree = "<group>"; };
-		34B921B026B0039900A01762 /* NSData+GrowingHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+GrowingHelper.h"; sourceTree = "<group>"; };
-		34B921B126B0039900A01762 /* NSObject+GrowingIvarHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+GrowingIvarHelper.h"; sourceTree = "<group>"; };
-		34B921B226B0039900A01762 /* NSDictionary+GrowingHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+GrowingHelper.h"; sourceTree = "<group>"; };
-		34B921B326B0039900A01762 /* UIControl+GrowingHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+GrowingHelper.h"; sourceTree = "<group>"; };
-		34B921B426B0039900A01762 /* NSURL+GrowingHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+GrowingHelper.m"; sourceTree = "<group>"; };
-		34B921B526B0039900A01762 /* UIImage+GrowingHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GrowingHelper.h"; sourceTree = "<group>"; };
-		34B921B626B0039900A01762 /* NSString+GrowingHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+GrowingHelper.h"; sourceTree = "<group>"; };
-		34B921B726B0039900A01762 /* UIView+GrowingHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GrowingHelper.h"; sourceTree = "<group>"; };
-		34B921B826B0039900A01762 /* NSArray+GrowingHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+GrowingHelper.h"; sourceTree = "<group>"; };
-		34B921B926B0039900A01762 /* UIWindow+GrowingHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+GrowingHelper.h"; sourceTree = "<group>"; };
-		34B921BA26B0039900A01762 /* UIApplication+GrowingHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+GrowingHelper.h"; sourceTree = "<group>"; };
-		34B921BB26B0039900A01762 /* NSObject+GrowingIvarHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+GrowingIvarHelper.m"; sourceTree = "<group>"; };
-		34B921BC26B0039900A01762 /* NSData+GrowingHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+GrowingHelper.m"; sourceTree = "<group>"; };
-		34B921BD26B0039900A01762 /* UIView+GrowingHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GrowingHelper.m"; sourceTree = "<group>"; };
-		34B921BE26B0039900A01762 /* UIImage+GrowingHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GrowingHelper.m"; sourceTree = "<group>"; };
-		34B921BF26B0039900A01762 /* NSString+GrowingHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+GrowingHelper.m"; sourceTree = "<group>"; };
-		34B921C026B0039900A01762 /* NSURL+GrowingHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+GrowingHelper.h"; sourceTree = "<group>"; };
-		34B921C126B0039900A01762 /* UIControl+GrowingHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+GrowingHelper.m"; sourceTree = "<group>"; };
-		34B921C226B0039900A01762 /* NSDictionary+GrowingHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+GrowingHelper.m"; sourceTree = "<group>"; };
-		34B921C326B0039900A01762 /* UIWindow+GrowingHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+GrowingHelper.m"; sourceTree = "<group>"; };
-		34B921C426B0039900A01762 /* NSArray+GrowingHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+GrowingHelper.m"; sourceTree = "<group>"; };
-		34B921C526B0039900A01762 /* GrowingHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingHelpers.h; sourceTree = "<group>"; };
-		34B921C626B0039900A01762 /* UIApplication+GrowingHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+GrowingHelper.m"; sourceTree = "<group>"; };
-		34B921C826B0039900A01762 /* GrowingASLLoggerFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingASLLoggerFormat.m; sourceTree = "<group>"; };
-		34B921C926B0039900A01762 /* GrowingWSLoggerFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingWSLoggerFormat.m; sourceTree = "<group>"; };
-		34B921CA26B0039900A01762 /* GrowingASLLoggerFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingASLLoggerFormat.h; sourceTree = "<group>"; };
-		34B921CB26B0039900A01762 /* GrowingWSLoggerFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingWSLoggerFormat.h; sourceTree = "<group>"; };
-		34B921CE26B0039900A01762 /* GrowingLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingLog.h; sourceTree = "<group>"; };
-		34B921CF26B0039900A01762 /* GrowingCocoaLumberjack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingCocoaLumberjack.h; sourceTree = "<group>"; };
-		34B921D026B0039900A01762 /* GrowingTTYLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingTTYLogger.h; sourceTree = "<group>"; };
-		34B921D126B0039900A01762 /* GrowingWSLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingWSLogger.h; sourceTree = "<group>"; };
-		34B921D226B0039900A01762 /* GrowingLoggerNames.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingLoggerNames.m; sourceTree = "<group>"; };
-		34B921D326B0039900A01762 /* GrowingASLLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingASLLogger.h; sourceTree = "<group>"; };
-		34B921D426B0039900A01762 /* GrowingLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingLog.m; sourceTree = "<group>"; };
-		34B921D526B0039900A01762 /* GrowingWSLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingWSLogger.m; sourceTree = "<group>"; };
-		34B921D626B0039900A01762 /* GrowingTTYLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingTTYLogger.m; sourceTree = "<group>"; };
-		34B921D726B0039900A01762 /* GrowingASLLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingASLLogger.m; sourceTree = "<group>"; };
-		34B921D826B0039900A01762 /* GrowingLogMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingLogMacros.h; sourceTree = "<group>"; };
-		34B921D926B0039900A01762 /* GrowingLoggerNames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingLoggerNames.h; sourceTree = "<group>"; };
-		34B921DB26B0039900A01762 /* GrowingReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingReachability.h; sourceTree = "<group>"; };
-		34B921DC26B0039900A01762 /* GrowingReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingReachability.m; sourceTree = "<group>"; };
-		34B921DE26B0039900A01762 /* GrowingFMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingFMDatabaseAdditions.h; sourceTree = "<group>"; };
-		34B921DF26B0039900A01762 /* GrowingFMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingFMDatabaseQueue.h; sourceTree = "<group>"; };
-		34B921E026B0039900A01762 /* GrowingFMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingFMDatabasePool.m; sourceTree = "<group>"; };
-		34B921E126B0039900A01762 /* GrowingFMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingFMResultSet.h; sourceTree = "<group>"; };
-		34B921E226B0039900A01762 /* GrowingFMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingFMDatabase.m; sourceTree = "<group>"; };
-		34B921E326B0039900A01762 /* GrowingFMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingFMDatabaseAdditions.m; sourceTree = "<group>"; };
-		34B921E426B0039900A01762 /* GrowingFMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingFMDatabasePool.h; sourceTree = "<group>"; };
-		34B921E526B0039900A01762 /* GrowingFMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingFMDatabaseQueue.m; sourceTree = "<group>"; };
-		34B921E626B0039900A01762 /* GrowingFMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingFMResultSet.m; sourceTree = "<group>"; };
-		34B921E726B0039900A01762 /* GrowingFMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingFMDB.h; sourceTree = "<group>"; };
-		34B921E826B0039900A01762 /* GrowingFMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingFMDatabase.h; sourceTree = "<group>"; };
-		34B921EA26B0039900A01762 /* GrowingSceneDelegateAutotracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingSceneDelegateAutotracker.m; sourceTree = "<group>"; };
-		34B921EB26B0039900A01762 /* GrowingAppDelegateAutotracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingAppDelegateAutotracker.m; sourceTree = "<group>"; };
-		34B921EC26B0039900A01762 /* GrowingWebWatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingWebWatcher.h; sourceTree = "<group>"; };
-		34B921ED26B0039900A01762 /* GrowingDeepLinkHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingDeepLinkHandler.m; sourceTree = "<group>"; };
-		34B921EE26B0039900A01762 /* GrowingSceneDelegateAutotracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingSceneDelegateAutotracker.h; sourceTree = "<group>"; };
-		34B921EF26B0039900A01762 /* GrowingAppDelegateAutotracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingAppDelegateAutotracker.h; sourceTree = "<group>"; };
-		34B921F026B0039900A01762 /* GrowingDeepLinkHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingDeepLinkHandler.h; sourceTree = "<group>"; };
-		34B921F126B0039900A01762 /* GrowingWebWatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingWebWatcher.m; sourceTree = "<group>"; };
-		34B921F326B0039900A01762 /* GrowingDebuggerEventQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingDebuggerEventQueue.h; sourceTree = "<group>"; };
-		34B921F426B0039A00A01762 /* GrowingMobileDebugger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingMobileDebugger.m; sourceTree = "<group>"; };
-		34B921F526B0039A00A01762 /* GrowingMobileDebugger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingMobileDebugger.h; sourceTree = "<group>"; };
-		34B921F626B0039A00A01762 /* GrowingDebuggerEventQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingDebuggerEventQueue.m; sourceTree = "<group>"; };
-		34B921F726B0039A00A01762 /* GrowingRealTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingRealTracker.m; sourceTree = "<group>"; };
-		34B921FA26B0039A00A01762 /* GrowingRealAutotracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingRealAutotracker.h; sourceTree = "<group>"; };
-		34B921FC26B0039A00A01762 /* GrowingPageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingPageManager.h; sourceTree = "<group>"; };
-		34B921FD26B0039A00A01762 /* UIViewController+GrowingPageHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+GrowingPageHelper.h"; sourceTree = "<group>"; };
-		34B921FE26B0039A00A01762 /* GrowingPageGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingPageGroup.h; sourceTree = "<group>"; };
-		34B921FF26B0039A00A01762 /* GrowingPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingPage.h; sourceTree = "<group>"; };
-		34B9220026B0039A00A01762 /* GrowingPageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingPageManager.m; sourceTree = "<group>"; };
-		34B9220126B0039A00A01762 /* UIViewController+GrowingPageHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+GrowingPageHelper.m"; sourceTree = "<group>"; };
-		34B9220226B0039A00A01762 /* GrowingPageGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingPageGroup.m; sourceTree = "<group>"; };
-		34B9220326B0039A00A01762 /* GrowingPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingPage.m; sourceTree = "<group>"; };
-		34B9220526B0039A00A01762 /* GrowingStatusBarAutotracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingStatusBarAutotracker.m; sourceTree = "<group>"; };
-		34B9220626B0039A00A01762 /* GrowingWebCircleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingWebCircleElement.h; sourceTree = "<group>"; };
-		34B9220726B0039A00A01762 /* GrowingWebCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingWebCircle.h; sourceTree = "<group>"; };
-		34B9220826B0039A00A01762 /* GrowingStatusBarAutotracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingStatusBarAutotracker.h; sourceTree = "<group>"; };
-		34B9220926B0039A00A01762 /* GrowingWebCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingWebCircle.m; sourceTree = "<group>"; };
-		34B9220A26B0039A00A01762 /* GrowingWebCircleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingWebCircleElement.m; sourceTree = "<group>"; };
-		34B9220B26B0039A00A01762 /* GrowingAutotrackConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingAutotrackConfiguration.m; sourceTree = "<group>"; };
-		34B9220D26B0039A00A01762 /* UIApplication+GrowingAutotracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+GrowingAutotracker.m"; sourceTree = "<group>"; };
-		34B9220E26B0039A00A01762 /* NSNotificationCenter+GrowingAutotracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+GrowingAutotracker.h"; sourceTree = "<group>"; };
-		34B9220F26B0039A00A01762 /* UIViewController+GrowingAutotracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+GrowingAutotracker.h"; sourceTree = "<group>"; };
-		34B9221026B0039A00A01762 /* UISegmentedControl+GrowingAutotracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISegmentedControl+GrowingAutotracker.h"; sourceTree = "<group>"; };
-		34B9221126B0039A00A01762 /* UICollectionView+GrowingAutotracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+GrowingAutotracker.h"; sourceTree = "<group>"; };
-		34B9221226B0039A00A01762 /* WKWebView+GrowingAutotracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WKWebView+GrowingAutotracker.h"; sourceTree = "<group>"; };
-		34B9221326B0039A00A01762 /* UIAlertController+GrowingAutotracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+GrowingAutotracker.h"; sourceTree = "<group>"; };
-		34B9221426B0039A00A01762 /* UIView+GrowingAutotracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GrowingAutotracker.m"; sourceTree = "<group>"; };
-		34B9221526B0039A00A01762 /* UITableView+GrowingAutotracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+GrowingAutotracker.h"; sourceTree = "<group>"; };
-		34B9221626B0039A00A01762 /* UITapGestureRecognizer+GrowingAutotracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITapGestureRecognizer+GrowingAutotracker.h"; sourceTree = "<group>"; };
-		34B9221726B0039A00A01762 /* UIApplication+GrowingAutotracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+GrowingAutotracker.h"; sourceTree = "<group>"; };
-		34B9221826B0039A00A01762 /* NSNotificationCenter+GrowingAutotracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNotificationCenter+GrowingAutotracker.m"; sourceTree = "<group>"; };
-		34B9221926B0039A00A01762 /* UIViewController+GrowingAutotracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+GrowingAutotracker.m"; sourceTree = "<group>"; };
-		34B9221A26B0039A00A01762 /* UIAlertController+GrowingAutotracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+GrowingAutotracker.m"; sourceTree = "<group>"; };
-		34B9221B26B0039A00A01762 /* WKWebView+GrowingAutotracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WKWebView+GrowingAutotracker.m"; sourceTree = "<group>"; };
-		34B9221C26B0039A00A01762 /* GrowingPropertyDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingPropertyDefine.h; sourceTree = "<group>"; };
-		34B9221D26B0039A00A01762 /* UICollectionView+GrowingAutotracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+GrowingAutotracker.m"; sourceTree = "<group>"; };
-		34B9221E26B0039A00A01762 /* UISegmentedControl+GrowingAutotracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISegmentedControl+GrowingAutotracker.m"; sourceTree = "<group>"; };
-		34B9221F26B0039A00A01762 /* UITapGestureRecognizer+GrowingAutotracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITapGestureRecognizer+GrowingAutotracker.m"; sourceTree = "<group>"; };
-		34B9222026B0039A00A01762 /* UITableView+GrowingAutotracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+GrowingAutotracker.m"; sourceTree = "<group>"; };
-		34B9222126B0039A00A01762 /* UIView+GrowingAutotracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GrowingAutotracker.h"; sourceTree = "<group>"; };
-		34B9222326B0039A00A01762 /* GrowingViewControllerLifecycle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingViewControllerLifecycle.m; sourceTree = "<group>"; };
-		34B9222426B0039A00A01762 /* GrowingViewControllerLifecycle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingViewControllerLifecycle.h; sourceTree = "<group>"; };
-		34B9222626B0039A00A01762 /* GrowingNodeHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingNodeHelper.m; sourceTree = "<group>"; };
-		34B9222726B0039A00A01762 /* GrowingViewNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingViewNode.m; sourceTree = "<group>"; };
-		34B9222826B0039A00A01762 /* GrowingNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingNode.h; sourceTree = "<group>"; };
-		34B9222A26B0039A00A01762 /* UIWindow+GrowingNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+GrowingNode.h"; sourceTree = "<group>"; };
-		34B9222B26B0039A00A01762 /* UIView+GrowingNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GrowingNode.h"; sourceTree = "<group>"; };
-		34B9222C26B0039A00A01762 /* UINavigationController+GrowingNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+GrowingNode.m"; sourceTree = "<group>"; };
-		34B9222D26B0039A00A01762 /* UITabBarController+GrowingNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+GrowingNode.h"; sourceTree = "<group>"; };
-		34B9222E26B0039A00A01762 /* UIImageView+GrowingNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+GrowingNode.h"; sourceTree = "<group>"; };
-		34B9222F26B0039A00A01762 /* UILabel+GrowingNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+GrowingNode.m"; sourceTree = "<group>"; };
-		34B9223026B0039A00A01762 /* UISegmentedControl+GrowingNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISegmentedControl+GrowingNode.h"; sourceTree = "<group>"; };
-		34B9223126B0039A00A01762 /* UICollectionView+GrowingNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+GrowingNode.h"; sourceTree = "<group>"; };
-		34B9223226B0039A00A01762 /* UITableView+GrowingNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+GrowingNode.m"; sourceTree = "<group>"; };
-		34B9223326B0039A00A01762 /* UIAlertController+GrowingNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+GrowingNode.m"; sourceTree = "<group>"; };
-		34B9223426B0039A00A01762 /* UIControl+GrowingNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+GrowingNode.m"; sourceTree = "<group>"; };
-		34B9223526B0039A00A01762 /* UIViewController+GrowingNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+GrowingNode.h"; sourceTree = "<group>"; };
-		34B9223626B0039A00A01762 /* UIWindow+GrowingNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+GrowingNode.m"; sourceTree = "<group>"; };
-		34B9223726B0039A00A01762 /* UIImageView+GrowingNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+GrowingNode.m"; sourceTree = "<group>"; };
-		34B9223826B0039A00A01762 /* UILabel+GrowingNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+GrowingNode.h"; sourceTree = "<group>"; };
-		34B9223926B0039A00A01762 /* UITabBarController+GrowingNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+GrowingNode.m"; sourceTree = "<group>"; };
-		34B9223A26B0039A00A01762 /* UINavigationController+GrowingNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+GrowingNode.h"; sourceTree = "<group>"; };
-		34B9223B26B0039A00A01762 /* UIView+GrowingNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GrowingNode.m"; sourceTree = "<group>"; };
-		34B9223C26B0039A00A01762 /* UISegmentedControl+GrowingNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISegmentedControl+GrowingNode.m"; sourceTree = "<group>"; };
-		34B9223D26B0039A00A01762 /* UIViewController+GrowingNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+GrowingNode.m"; sourceTree = "<group>"; };
-		34B9223E26B0039A00A01762 /* UIControl+GrowingNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+GrowingNode.h"; sourceTree = "<group>"; };
-		34B9223F26B0039A00A01762 /* UIAlertController+GrowingNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+GrowingNode.h"; sourceTree = "<group>"; };
-		34B9224026B0039A00A01762 /* UITableView+GrowingNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+GrowingNode.h"; sourceTree = "<group>"; };
-		34B9224126B0039A00A01762 /* UICollectionView+GrowingNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+GrowingNode.m"; sourceTree = "<group>"; };
-		34B9224226B0039A00A01762 /* GrowingNodeItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingNodeItem.h; sourceTree = "<group>"; };
-		34B9224326B0039A00A01762 /* GrowingViewChangeProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingViewChangeProvider.m; sourceTree = "<group>"; };
-		34B9224426B0039A00A01762 /* GrowingViewClickProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingViewClickProvider.m; sourceTree = "<group>"; };
-		34B9224526B0039A00A01762 /* GrowingNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingNode.m; sourceTree = "<group>"; };
-		34B9224626B0039A00A01762 /* GrowingViewNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingViewNode.h; sourceTree = "<group>"; };
-		34B9224726B0039A00A01762 /* GrowingNodeHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingNodeHelper.h; sourceTree = "<group>"; };
-		34B9224826B0039A00A01762 /* GrowingViewChangeProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingViewChangeProvider.h; sourceTree = "<group>"; };
-		34B9224926B0039A00A01762 /* GrowingNodeItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingNodeItem.m; sourceTree = "<group>"; };
-		34B9224A26B0039A00A01762 /* GrowingViewClickProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingViewClickProvider.h; sourceTree = "<group>"; };
-		34B9224B26B0039A00A01762 /* GrowingRealAutotracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingRealAutotracker.m; sourceTree = "<group>"; };
-		34B9224D26B0039A00A01762 /* GrowingPrivateCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingPrivateCategory.h; sourceTree = "<group>"; };
-		34B9224F26B0039A00A01762 /* GrowingImpressionTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingImpressionTrack.h; sourceTree = "<group>"; };
-		34B9225026B0039A00A01762 /* GrowingImpressionTrack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingImpressionTrack.m; sourceTree = "<group>"; };
-		34B9225226B0039A00A01762 /* GrowingPageEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingPageEvent.m; sourceTree = "<group>"; };
-		34B9225326B0039A00A01762 /* GrowingAutotrackEventType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingAutotrackEventType.m; sourceTree = "<group>"; };
-		34B9225426B0039A00A01762 /* GrowingViewElementEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingViewElementEvent.m; sourceTree = "<group>"; };
-		34B9225526B0039A00A01762 /* GrowingPageCustomEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingPageCustomEvent.m; sourceTree = "<group>"; };
-		34B9225626B0039A00A01762 /* GrowingPageAttributesEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingPageAttributesEvent.m; sourceTree = "<group>"; };
-		34B9225726B0039A00A01762 /* GrowingPageEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingPageEvent.h; sourceTree = "<group>"; };
-		34B9225826B0039A00A01762 /* GrowingViewElementEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingViewElementEvent.h; sourceTree = "<group>"; };
-		34B9225926B0039A00A01762 /* GrowingAutotrackEventType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingAutotrackEventType.h; sourceTree = "<group>"; };
-		34B9225A26B0039A00A01762 /* GrowingPageAttributesEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingPageAttributesEvent.h; sourceTree = "<group>"; };
-		34B9225B26B0039A00A01762 /* GrowingPageCustomEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingPageCustomEvent.h; sourceTree = "<group>"; };
-		34B9225C26B0039A00A01762 /* GrowingAutotrackConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingAutotrackConfiguration.h; sourceTree = "<group>"; };
-		34B9225E26B0039A00A01762 /* GrowingWKWebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingWKWebViewJavascriptBridge.m; sourceTree = "<group>"; };
-		34B9225F26B0039A00A01762 /* GrowingHybridBridgeProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingHybridBridgeProvider.m; sourceTree = "<group>"; };
-		34B9226026B0039A00A01762 /* GrowingWebViewJavascriptBridgeConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingWebViewJavascriptBridgeConfiguration.h; sourceTree = "<group>"; };
-		34B9226126B0039A00A01762 /* GrowingWKWebViewJavascriptBridge_JS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingWKWebViewJavascriptBridge_JS.h; sourceTree = "<group>"; };
-		34B9226226B0039A00A01762 /* GrowingWKWebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingWKWebViewJavascriptBridge.h; sourceTree = "<group>"; };
-		34B9226426B0039A00A01762 /* GrowingHybridCustomEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingHybridCustomEvent.m; sourceTree = "<group>"; };
-		34B9226526B0039A00A01762 /* GrowingHybridPageAttributesEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingHybridPageAttributesEvent.m; sourceTree = "<group>"; };
-		34B9226626B0039A00A01762 /* GrowingHybridEventType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingHybridEventType.h; sourceTree = "<group>"; };
-		34B9226726B0039A00A01762 /* GrowingHybridViewElementEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingHybridViewElementEvent.m; sourceTree = "<group>"; };
-		34B9226826B0039A00A01762 /* GrowingHybridPageEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingHybridPageEvent.h; sourceTree = "<group>"; };
-		34B9226926B0039A00A01762 /* GrowingHybridEventType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingHybridEventType.m; sourceTree = "<group>"; };
-		34B9226A26B0039A00A01762 /* GrowingHybridPageAttributesEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingHybridPageAttributesEvent.h; sourceTree = "<group>"; };
-		34B9226B26B0039A00A01762 /* GrowingHybridCustomEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingHybridCustomEvent.h; sourceTree = "<group>"; };
-		34B9226C26B0039A00A01762 /* GrowingHybridPageEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingHybridPageEvent.m; sourceTree = "<group>"; };
-		34B9226D26B0039A00A01762 /* GrowingHybridViewElementEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingHybridViewElementEvent.h; sourceTree = "<group>"; };
-		34B9226E26B0039A00A01762 /* GrowingWebViewJavascriptBridgeConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingWebViewJavascriptBridgeConfiguration.m; sourceTree = "<group>"; };
-		34B9226F26B0039A00A01762 /* GrowingWebViewDomChangedDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingWebViewDomChangedDelegate.h; sourceTree = "<group>"; };
-		34B9227026B0039A00A01762 /* GrowingHybridBridgeProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingHybridBridgeProvider.h; sourceTree = "<group>"; };
-		34B9227126B0039A00A01762 /* GrowingWKWebViewJavascriptBridge_JS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingWKWebViewJavascriptBridge_JS.m; sourceTree = "<group>"; };
-		34B9227326B0039A00A01762 /* GrowingAutotracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowingAutotracker.h; sourceTree = "<group>"; };
-		34B9227426B0039A00A01762 /* GrowingAutotracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowingAutotracker.m; sourceTree = "<group>"; };
 		34B922FD26B0062700A01762 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		34B922FF26B0063600A01762 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		34B9230126B0064F00A01762 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
@@ -6856,610 +6436,6 @@
 			name = PageHistory;
 			sourceTree = "<group>";
 		};
-		34B9213126B0039800A01762 /* GrowingAnalytics */ = {
-			isa = PBXGroup;
-			children = (
-				34B9213226B0039800A01762 /* GrowingTrackerCore */,
-				34B921F826B0039A00A01762 /* GrowingTracker */,
-				34B921F926B0039A00A01762 /* GrowingAutotrackerCore */,
-				34B9227226B0039A00A01762 /* GrowingAutotracker */,
-			);
-			name = GrowingAnalytics;
-			path = "Wikipedia/Third Party Code/GrowingAnalytics";
-			sourceTree = SOURCE_ROOT;
-		};
-		34B9213226B0039800A01762 /* GrowingTrackerCore */ = {
-			isa = PBXGroup;
-			children = (
-				34B9213326B0039800A01762 /* GrowingTrackConfiguration.m */,
-				34B9213426B0039800A01762 /* GrowingWindow.m */,
-				34B9213526B0039800A01762 /* GrowingAttributesConst.m */,
-				34B9213626B0039800A01762 /* GrowingSwizzle */,
-				34B9213B26B0039800A01762 /* NetWork */,
-				34B9215A26B0039900A01762 /* FileStorage */,
-				34B9216026B0039900A01762 /* GrowingRealTracker.h */,
-				34B9216126B0039900A01762 /* Utils */,
-				34B9216E26B0039900A01762 /* GrowingWindow.h */,
-				34B9216F26B0039900A01762 /* Manager */,
-				34B9217826B0039900A01762 /* GrowingTrackConfiguration.h */,
-				34B9217926B0039900A01762 /* Menu */,
-				34B9217E26B0039900A01762 /* GrowingAttributesConst.h */,
-				34B9217F26B0039900A01762 /* Thread */,
-				34B9218426B0039900A01762 /* Event */,
-				34B921AA26B0039900A01762 /* Hook */,
-				34B921AF26B0039900A01762 /* Helpers */,
-				34B921C726B0039900A01762 /* LogFormat */,
-				34B921CC26B0039900A01762 /* Thirdparty */,
-				34B921E926B0039900A01762 /* DeepLink */,
-				34B921F726B0039A00A01762 /* GrowingRealTracker.m */,
-			);
-			path = GrowingTrackerCore;
-			sourceTree = "<group>";
-		};
-		34B9213626B0039800A01762 /* GrowingSwizzle */ = {
-			isa = PBXGroup;
-			children = (
-				34B9213726B0039800A01762 /* GrowingSwizzle.h */,
-				34B9213826B0039800A01762 /* GrowingSwizzler.h */,
-				34B9213926B0039800A01762 /* GrowingSwizzle.m */,
-				34B9213A26B0039800A01762 /* GrowingSwizzler.m */,
-			);
-			path = GrowingSwizzle;
-			sourceTree = "<group>";
-		};
-		34B9213B26B0039800A01762 /* NetWork */ = {
-			isa = PBXGroup;
-			children = (
-				34B9213C26B0039800A01762 /* NetworkManager */,
-				34B9214326B0039800A01762 /* SocketRocket */,
-				34B9214626B0039800A01762 /* LZ4 */,
-				34B9214926B0039800A01762 /* GrowingNetworkInterfaceManager.m */,
-				34B9214A26B0039800A01762 /* Request */,
-				34B9215926B0039900A01762 /* GrowingNetworkInterfaceManager.h */,
-			);
-			path = NetWork;
-			sourceTree = "<group>";
-		};
-		34B9213C26B0039800A01762 /* NetworkManager */ = {
-			isa = PBXGroup;
-			children = (
-				34B9213D26B0039800A01762 /* NSURLSession+GrowingURLSessionHelper.m */,
-				34B9213E26B0039800A01762 /* GrowingNetworkManager.m */,
-				34B9213F26B0039800A01762 /* NSURLSessionDataTask+GrowingURLSessionDataTaskHelper.h */,
-				34B9214026B0039800A01762 /* NSURLSession+GrowingURLSessionHelper.h */,
-				34B9214126B0039800A01762 /* NSURLSessionDataTask+GrowingURLSessionDataTaskHelper.m */,
-				34B9214226B0039800A01762 /* GrowingNetworkManager.h */,
-			);
-			path = NetworkManager;
-			sourceTree = "<group>";
-		};
-		34B9214326B0039800A01762 /* SocketRocket */ = {
-			isa = PBXGroup;
-			children = (
-				34B9214426B0039800A01762 /* GrowingSRWebSocket.m */,
-				34B9214526B0039800A01762 /* GrowingSRWebSocket.h */,
-			);
-			path = SocketRocket;
-			sourceTree = "<group>";
-		};
-		34B9214626B0039800A01762 /* LZ4 */ = {
-			isa = PBXGroup;
-			children = (
-				34B9214726B0039800A01762 /* GrowingLZ4.c */,
-				34B9214826B0039800A01762 /* GrowingLZ4.h */,
-			);
-			path = LZ4;
-			sourceTree = "<group>";
-		};
-		34B9214A26B0039800A01762 /* Request */ = {
-			isa = PBXGroup;
-			children = (
-				34B9214B26B0039800A01762 /* GrowingURLSessionDataTaskProtocol.h */,
-				34B9214C26B0039900A01762 /* GrowingRequestProtocol.h */,
-				34B9214D26B0039900A01762 /* GrowingNetworkConfig.m */,
-				34B9214E26B0039900A01762 /* GrowingEventRequest.m */,
-				34B9214F26B0039900A01762 /* GrowingLoginRequest.m */,
-				34B9215026B0039900A01762 /* Adapter */,
-				34B9215526B0039900A01762 /* GrowingURLSessionProtocol.h */,
-				34B9215626B0039900A01762 /* GrowingNetworkConfig.h */,
-				34B9215726B0039900A01762 /* GrowingEventRequest.h */,
-				34B9215826B0039900A01762 /* GrowingLoginRequest.h */,
-			);
-			path = Request;
-			sourceTree = "<group>";
-		};
-		34B9215026B0039900A01762 /* Adapter */ = {
-			isa = PBXGroup;
-			children = (
-				34B9215126B0039900A01762 /* GrowingEventRequestAdapter.m */,
-				34B9215226B0039900A01762 /* GrowingRequestAdapter.h */,
-				34B9215326B0039900A01762 /* GrowingEventRequestAdapter.h */,
-				34B9215426B0039900A01762 /* GrowingRequestAdapter.m */,
-			);
-			path = Adapter;
-			sourceTree = "<group>";
-		};
-		34B9215A26B0039900A01762 /* FileStorage */ = {
-			isa = PBXGroup;
-			children = (
-				34B9215B26B0039900A01762 /* GrowingUserDefaults.h */,
-				34B9215C26B0039900A01762 /* GrowingFileStorage.m */,
-				34B9215D26B0039900A01762 /* GrowingUserDefaults.m */,
-				34B9215E26B0039900A01762 /* GrowingCrypto.h */,
-				34B9215F26B0039900A01762 /* GrowingFileStorage.h */,
-			);
-			path = FileStorage;
-			sourceTree = "<group>";
-		};
-		34B9216126B0039900A01762 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				34B9216226B0039900A01762 /* GrowingTimeUtil.h */,
-				34B9216326B0039900A01762 /* GrowingDeviceInfo.m */,
-				34B9216426B0039900A01762 /* GrowingUserIdentifier.h */,
-				34B9216526B0039900A01762 /* GrowingKeyChainWrapper.h */,
-				34B9216626B0039900A01762 /* GrowingDynamicProxy.m */,
-				34B9216726B0039900A01762 /* GrowingArgumentChecker.m */,
-				34B9216826B0039900A01762 /* GrowingUserIdentifier.m */,
-				34B9216926B0039900A01762 /* GrowingKeyChainWrapper.m */,
-				34B9216A26B0039900A01762 /* GrowingDeviceInfo.h */,
-				34B9216B26B0039900A01762 /* GrowingTimeUtil.m */,
-				34B9216C26B0039900A01762 /* GrowingDynamicProxy.h */,
-				34B9216D26B0039900A01762 /* GrowingArgumentChecker.h */,
-			);
-			path = Utils;
-			sourceTree = "<group>";
-		};
-		34B9216F26B0039900A01762 /* Manager */ = {
-			isa = PBXGroup;
-			children = (
-				34B9217026B0039900A01762 /* GrowingConfigurationManager.h */,
-				34B9217126B0039900A01762 /* GrowingSession.m */,
-				34B9217226B0039900A01762 /* GrowingStatusBarEventManager.h */,
-				34B9217326B0039900A01762 /* GrowingApplicationEventManager.m */,
-				34B9217426B0039900A01762 /* GrowingConfigurationManager.m */,
-				34B9217526B0039900A01762 /* GrowingSession.h */,
-				34B9217626B0039900A01762 /* GrowingStatusBarEventManager.m */,
-				34B9217726B0039900A01762 /* GrowingApplicationEventManager.h */,
-			);
-			path = Manager;
-			sourceTree = "<group>";
-		};
-		34B9217926B0039900A01762 /* Menu */ = {
-			isa = PBXGroup;
-			children = (
-				34B9217A26B0039900A01762 /* GrowingAlert.h */,
-				34B9217B26B0039900A01762 /* GrowingStatusBar.m */,
-				34B9217C26B0039900A01762 /* GrowingAlert.m */,
-				34B9217D26B0039900A01762 /* GrowingStatusBar.h */,
-			);
-			path = Menu;
-			sourceTree = "<group>";
-		};
-		34B9217F26B0039900A01762 /* Thread */ = {
-			isa = PBXGroup;
-			children = (
-				34B9218026B0039900A01762 /* GrowingThread.h */,
-				34B9218126B0039900A01762 /* GrowingDispatchManager.m */,
-				34B9218226B0039900A01762 /* GrowingDispatchManager.h */,
-				34B9218326B0039900A01762 /* GrowingThread.m */,
-			);
-			path = Thread;
-			sourceTree = "<group>";
-		};
-		34B9218426B0039900A01762 /* Event */ = {
-			isa = PBXGroup;
-			children = (
-				34B9218526B0039900A01762 /* GrowingVisitorAttributesEvent.m */,
-				34B9218626B0039900A01762 /* GrowingAppCloseEvent.m */,
-				34B9218726B0039900A01762 /* GrowingEventGenerator.h */,
-				34B9218826B0039900A01762 /* Tools */,
-				34B9218D26B0039900A01762 /* GrowingConversionVariableEvent.h */,
-				34B9218E26B0039900A01762 /* GrowingDataTraffic.h */,
-				34B9218F26B0039900A01762 /* GrowingLoginUserAttributesEvent.m */,
-				34B9219026B0039900A01762 /* GrowingCustomEvent.h */,
-				34B9219126B0039900A01762 /* GrowingEventManager.h */,
-				34B9219226B0039900A01762 /* GrowingTrackEventType.m */,
-				34B9219326B0039900A01762 /* GrowingEventDataBase.m */,
-				34B9219426B0039900A01762 /* GrowingNodeProtocol.h */,
-				34B9219526B0039900A01762 /* GrowingVisitEvent.h */,
-				34B9219626B0039900A01762 /* GrowingEventChannel.h */,
-				34B9219726B0039900A01762 /* GrowingEventGenerator.m */,
-				34B9219826B0039900A01762 /* GrowingAppCloseEvent.h */,
-				34B9219926B0039900A01762 /* GrowingVisitorAttributesEvent.h */,
-				34B9219A26B0039900A01762 /* GrowingEventManager.m */,
-				34B9219B26B0039900A01762 /* GrowingCustomEvent.m */,
-				34B9219C26B0039900A01762 /* GrowingLoginUserAttributesEvent.h */,
-				34B9219D26B0039900A01762 /* GrowingDataTraffic.m */,
-				34B9219E26B0039900A01762 /* GrowingConversionVariableEvent.m */,
-				34B9219F26B0039900A01762 /* GrowingEventDataBase.h */,
-				34B921A026B0039900A01762 /* GrowingTrackEventType.h */,
-				34B921A126B0039900A01762 /* Base */,
-				34B921A826B0039900A01762 /* GrowingEventChannel.m */,
-				34B921A926B0039900A01762 /* GrowingVisitEvent.m */,
-			);
-			path = Event;
-			sourceTree = "<group>";
-		};
-		34B9218826B0039900A01762 /* Tools */ = {
-			isa = PBXGroup;
-			children = (
-				34B9218926B0039900A01762 /* GrowingPersistenceDataProvider.m */,
-				34B9218A26B0039900A01762 /* GrowingEventPersistence.m */,
-				34B9218B26B0039900A01762 /* GrowingEventPersistence.h */,
-				34B9218C26B0039900A01762 /* GrowingPersistenceDataProvider.h */,
-			);
-			path = Tools;
-			sourceTree = "<group>";
-		};
-		34B921A126B0039900A01762 /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				34B921A226B0039900A01762 /* GrowingBaseEvent+SendPolicy.h */,
-				34B921A326B0039900A01762 /* GrowingBaseAttributesEvent.h */,
-				34B921A426B0039900A01762 /* GrowingBaseEvent.m */,
-				34B921A526B0039900A01762 /* GrowingBaseEvent.h */,
-				34B921A626B0039900A01762 /* GrowingBaseAttributesEvent.m */,
-				34B921A726B0039900A01762 /* GrowingBaseEvent+SendPolicy.m */,
-			);
-			path = Base;
-			sourceTree = "<group>";
-		};
-		34B921AA26B0039900A01762 /* Hook */ = {
-			isa = PBXGroup;
-			children = (
-				34B921AB26B0039900A01762 /* GrowingAppLifecycle.m */,
-				34B921AC26B0039900A01762 /* UIApplication+GrowingNode.h */,
-				34B921AD26B0039900A01762 /* GrowingAppLifecycle.h */,
-				34B921AE26B0039900A01762 /* UIApplication+GrowingNode.m */,
-			);
-			path = Hook;
-			sourceTree = "<group>";
-		};
-		34B921AF26B0039900A01762 /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-				34B921B026B0039900A01762 /* NSData+GrowingHelper.h */,
-				34B921B126B0039900A01762 /* NSObject+GrowingIvarHelper.h */,
-				34B921B226B0039900A01762 /* NSDictionary+GrowingHelper.h */,
-				34B921B326B0039900A01762 /* UIControl+GrowingHelper.h */,
-				34B921B426B0039900A01762 /* NSURL+GrowingHelper.m */,
-				34B921B526B0039900A01762 /* UIImage+GrowingHelper.h */,
-				34B921B626B0039900A01762 /* NSString+GrowingHelper.h */,
-				34B921B726B0039900A01762 /* UIView+GrowingHelper.h */,
-				34B921B826B0039900A01762 /* NSArray+GrowingHelper.h */,
-				34B921B926B0039900A01762 /* UIWindow+GrowingHelper.h */,
-				34B921BA26B0039900A01762 /* UIApplication+GrowingHelper.h */,
-				34B921BB26B0039900A01762 /* NSObject+GrowingIvarHelper.m */,
-				34B921BC26B0039900A01762 /* NSData+GrowingHelper.m */,
-				34B921BD26B0039900A01762 /* UIView+GrowingHelper.m */,
-				34B921BE26B0039900A01762 /* UIImage+GrowingHelper.m */,
-				34B921BF26B0039900A01762 /* NSString+GrowingHelper.m */,
-				34B921C026B0039900A01762 /* NSURL+GrowingHelper.h */,
-				34B921C126B0039900A01762 /* UIControl+GrowingHelper.m */,
-				34B921C226B0039900A01762 /* NSDictionary+GrowingHelper.m */,
-				34B921C326B0039900A01762 /* UIWindow+GrowingHelper.m */,
-				34B921C426B0039900A01762 /* NSArray+GrowingHelper.m */,
-				34B921C526B0039900A01762 /* GrowingHelpers.h */,
-				34B921C626B0039900A01762 /* UIApplication+GrowingHelper.m */,
-			);
-			path = Helpers;
-			sourceTree = "<group>";
-		};
-		34B921C726B0039900A01762 /* LogFormat */ = {
-			isa = PBXGroup;
-			children = (
-				34B921C826B0039900A01762 /* GrowingASLLoggerFormat.m */,
-				34B921C926B0039900A01762 /* GrowingWSLoggerFormat.m */,
-				34B921CA26B0039900A01762 /* GrowingASLLoggerFormat.h */,
-				34B921CB26B0039900A01762 /* GrowingWSLoggerFormat.h */,
-			);
-			path = LogFormat;
-			sourceTree = "<group>";
-		};
-		34B921CC26B0039900A01762 /* Thirdparty */ = {
-			isa = PBXGroup;
-			children = (
-				34B921CD26B0039900A01762 /* GrowingLogger */,
-				34B921DA26B0039900A01762 /* Reachability */,
-				34B921DD26B0039900A01762 /* fmdb */,
-			);
-			path = Thirdparty;
-			sourceTree = "<group>";
-		};
-		34B921CD26B0039900A01762 /* GrowingLogger */ = {
-			isa = PBXGroup;
-			children = (
-				34B921CE26B0039900A01762 /* GrowingLog.h */,
-				34B921CF26B0039900A01762 /* GrowingCocoaLumberjack.h */,
-				34B921D026B0039900A01762 /* GrowingTTYLogger.h */,
-				34B921D126B0039900A01762 /* GrowingWSLogger.h */,
-				34B921D226B0039900A01762 /* GrowingLoggerNames.m */,
-				34B921D326B0039900A01762 /* GrowingASLLogger.h */,
-				34B921D426B0039900A01762 /* GrowingLog.m */,
-				34B921D526B0039900A01762 /* GrowingWSLogger.m */,
-				34B921D626B0039900A01762 /* GrowingTTYLogger.m */,
-				34B921D726B0039900A01762 /* GrowingASLLogger.m */,
-				34B921D826B0039900A01762 /* GrowingLogMacros.h */,
-				34B921D926B0039900A01762 /* GrowingLoggerNames.h */,
-			);
-			path = GrowingLogger;
-			sourceTree = "<group>";
-		};
-		34B921DA26B0039900A01762 /* Reachability */ = {
-			isa = PBXGroup;
-			children = (
-				34B921DB26B0039900A01762 /* GrowingReachability.h */,
-				34B921DC26B0039900A01762 /* GrowingReachability.m */,
-			);
-			path = Reachability;
-			sourceTree = "<group>";
-		};
-		34B921DD26B0039900A01762 /* fmdb */ = {
-			isa = PBXGroup;
-			children = (
-				34B921DE26B0039900A01762 /* GrowingFMDatabaseAdditions.h */,
-				34B921DF26B0039900A01762 /* GrowingFMDatabaseQueue.h */,
-				34B921E026B0039900A01762 /* GrowingFMDatabasePool.m */,
-				34B921E126B0039900A01762 /* GrowingFMResultSet.h */,
-				34B921E226B0039900A01762 /* GrowingFMDatabase.m */,
-				34B921E326B0039900A01762 /* GrowingFMDatabaseAdditions.m */,
-				34B921E426B0039900A01762 /* GrowingFMDatabasePool.h */,
-				34B921E526B0039900A01762 /* GrowingFMDatabaseQueue.m */,
-				34B921E626B0039900A01762 /* GrowingFMResultSet.m */,
-				34B921E726B0039900A01762 /* GrowingFMDB.h */,
-				34B921E826B0039900A01762 /* GrowingFMDatabase.h */,
-			);
-			path = fmdb;
-			sourceTree = "<group>";
-		};
-		34B921E926B0039900A01762 /* DeepLink */ = {
-			isa = PBXGroup;
-			children = (
-				34B921EA26B0039900A01762 /* GrowingSceneDelegateAutotracker.m */,
-				34B921EB26B0039900A01762 /* GrowingAppDelegateAutotracker.m */,
-				34B921EC26B0039900A01762 /* GrowingWebWatcher.h */,
-				34B921ED26B0039900A01762 /* GrowingDeepLinkHandler.m */,
-				34B921EE26B0039900A01762 /* GrowingSceneDelegateAutotracker.h */,
-				34B921EF26B0039900A01762 /* GrowingAppDelegateAutotracker.h */,
-				34B921F026B0039900A01762 /* GrowingDeepLinkHandler.h */,
-				34B921F126B0039900A01762 /* GrowingWebWatcher.m */,
-				34B921F226B0039900A01762 /* MobileDebugger */,
-			);
-			path = DeepLink;
-			sourceTree = "<group>";
-		};
-		34B921F226B0039900A01762 /* MobileDebugger */ = {
-			isa = PBXGroup;
-			children = (
-				34B921F326B0039900A01762 /* GrowingDebuggerEventQueue.h */,
-				34B921F426B0039A00A01762 /* GrowingMobileDebugger.m */,
-				34B921F526B0039A00A01762 /* GrowingMobileDebugger.h */,
-				34B921F626B0039A00A01762 /* GrowingDebuggerEventQueue.m */,
-			);
-			path = MobileDebugger;
-			sourceTree = "<group>";
-		};
-		34B921F826B0039A00A01762 /* GrowingTracker */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = GrowingTracker;
-			sourceTree = "<group>";
-		};
-		34B921F926B0039A00A01762 /* GrowingAutotrackerCore */ = {
-			isa = PBXGroup;
-			children = (
-				34B921FA26B0039A00A01762 /* GrowingRealAutotracker.h */,
-				34B921FB26B0039A00A01762 /* Page */,
-				34B9220426B0039A00A01762 /* WebCircle */,
-				34B9220B26B0039A00A01762 /* GrowingAutotrackConfiguration.m */,
-				34B9220C26B0039A00A01762 /* Autotrack */,
-				34B9222226B0039A00A01762 /* Manager */,
-				34B9222526B0039A00A01762 /* GrowingNode */,
-				34B9224B26B0039A00A01762 /* GrowingRealAutotracker.m */,
-				34B9224C26B0039A00A01762 /* Private */,
-				34B9224E26B0039A00A01762 /* Impression */,
-				34B9225126B0039A00A01762 /* Event */,
-				34B9225C26B0039A00A01762 /* GrowingAutotrackConfiguration.h */,
-				34B9225D26B0039A00A01762 /* Hybrid */,
-			);
-			path = GrowingAutotrackerCore;
-			sourceTree = "<group>";
-		};
-		34B921FB26B0039A00A01762 /* Page */ = {
-			isa = PBXGroup;
-			children = (
-				34B921FC26B0039A00A01762 /* GrowingPageManager.h */,
-				34B921FD26B0039A00A01762 /* UIViewController+GrowingPageHelper.h */,
-				34B921FE26B0039A00A01762 /* GrowingPageGroup.h */,
-				34B921FF26B0039A00A01762 /* GrowingPage.h */,
-				34B9220026B0039A00A01762 /* GrowingPageManager.m */,
-				34B9220126B0039A00A01762 /* UIViewController+GrowingPageHelper.m */,
-				34B9220226B0039A00A01762 /* GrowingPageGroup.m */,
-				34B9220326B0039A00A01762 /* GrowingPage.m */,
-			);
-			path = Page;
-			sourceTree = "<group>";
-		};
-		34B9220426B0039A00A01762 /* WebCircle */ = {
-			isa = PBXGroup;
-			children = (
-				34B9220526B0039A00A01762 /* GrowingStatusBarAutotracker.m */,
-				34B9220626B0039A00A01762 /* GrowingWebCircleElement.h */,
-				34B9220726B0039A00A01762 /* GrowingWebCircle.h */,
-				34B9220826B0039A00A01762 /* GrowingStatusBarAutotracker.h */,
-				34B9220926B0039A00A01762 /* GrowingWebCircle.m */,
-				34B9220A26B0039A00A01762 /* GrowingWebCircleElement.m */,
-			);
-			path = WebCircle;
-			sourceTree = "<group>";
-		};
-		34B9220C26B0039A00A01762 /* Autotrack */ = {
-			isa = PBXGroup;
-			children = (
-				34B9220D26B0039A00A01762 /* UIApplication+GrowingAutotracker.m */,
-				34B9220E26B0039A00A01762 /* NSNotificationCenter+GrowingAutotracker.h */,
-				34B9220F26B0039A00A01762 /* UIViewController+GrowingAutotracker.h */,
-				34B9221026B0039A00A01762 /* UISegmentedControl+GrowingAutotracker.h */,
-				34B9221126B0039A00A01762 /* UICollectionView+GrowingAutotracker.h */,
-				34B9221226B0039A00A01762 /* WKWebView+GrowingAutotracker.h */,
-				34B9221326B0039A00A01762 /* UIAlertController+GrowingAutotracker.h */,
-				34B9221426B0039A00A01762 /* UIView+GrowingAutotracker.m */,
-				34B9221526B0039A00A01762 /* UITableView+GrowingAutotracker.h */,
-				34B9221626B0039A00A01762 /* UITapGestureRecognizer+GrowingAutotracker.h */,
-				34B9221726B0039A00A01762 /* UIApplication+GrowingAutotracker.h */,
-				34B9221826B0039A00A01762 /* NSNotificationCenter+GrowingAutotracker.m */,
-				34B9221926B0039A00A01762 /* UIViewController+GrowingAutotracker.m */,
-				34B9221A26B0039A00A01762 /* UIAlertController+GrowingAutotracker.m */,
-				34B9221B26B0039A00A01762 /* WKWebView+GrowingAutotracker.m */,
-				34B9221C26B0039A00A01762 /* GrowingPropertyDefine.h */,
-				34B9221D26B0039A00A01762 /* UICollectionView+GrowingAutotracker.m */,
-				34B9221E26B0039A00A01762 /* UISegmentedControl+GrowingAutotracker.m */,
-				34B9221F26B0039A00A01762 /* UITapGestureRecognizer+GrowingAutotracker.m */,
-				34B9222026B0039A00A01762 /* UITableView+GrowingAutotracker.m */,
-				34B9222126B0039A00A01762 /* UIView+GrowingAutotracker.h */,
-			);
-			path = Autotrack;
-			sourceTree = "<group>";
-		};
-		34B9222226B0039A00A01762 /* Manager */ = {
-			isa = PBXGroup;
-			children = (
-				34B9222326B0039A00A01762 /* GrowingViewControllerLifecycle.m */,
-				34B9222426B0039A00A01762 /* GrowingViewControllerLifecycle.h */,
-			);
-			path = Manager;
-			sourceTree = "<group>";
-		};
-		34B9222526B0039A00A01762 /* GrowingNode */ = {
-			isa = PBXGroup;
-			children = (
-				34B9222626B0039A00A01762 /* GrowingNodeHelper.m */,
-				34B9222726B0039A00A01762 /* GrowingViewNode.m */,
-				34B9222826B0039A00A01762 /* GrowingNode.h */,
-				34B9222926B0039A00A01762 /* Category */,
-				34B9224226B0039A00A01762 /* GrowingNodeItem.h */,
-				34B9224326B0039A00A01762 /* GrowingViewChangeProvider.m */,
-				34B9224426B0039A00A01762 /* GrowingViewClickProvider.m */,
-				34B9224526B0039A00A01762 /* GrowingNode.m */,
-				34B9224626B0039A00A01762 /* GrowingViewNode.h */,
-				34B9224726B0039A00A01762 /* GrowingNodeHelper.h */,
-				34B9224826B0039A00A01762 /* GrowingViewChangeProvider.h */,
-				34B9224926B0039A00A01762 /* GrowingNodeItem.m */,
-				34B9224A26B0039A00A01762 /* GrowingViewClickProvider.h */,
-			);
-			path = GrowingNode;
-			sourceTree = "<group>";
-		};
-		34B9222926B0039A00A01762 /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				34B9222A26B0039A00A01762 /* UIWindow+GrowingNode.h */,
-				34B9222B26B0039A00A01762 /* UIView+GrowingNode.h */,
-				34B9222C26B0039A00A01762 /* UINavigationController+GrowingNode.m */,
-				34B9222D26B0039A00A01762 /* UITabBarController+GrowingNode.h */,
-				34B9222E26B0039A00A01762 /* UIImageView+GrowingNode.h */,
-				34B9222F26B0039A00A01762 /* UILabel+GrowingNode.m */,
-				34B9223026B0039A00A01762 /* UISegmentedControl+GrowingNode.h */,
-				34B9223126B0039A00A01762 /* UICollectionView+GrowingNode.h */,
-				34B9223226B0039A00A01762 /* UITableView+GrowingNode.m */,
-				34B9223326B0039A00A01762 /* UIAlertController+GrowingNode.m */,
-				34B9223426B0039A00A01762 /* UIControl+GrowingNode.m */,
-				34B9223526B0039A00A01762 /* UIViewController+GrowingNode.h */,
-				34B9223626B0039A00A01762 /* UIWindow+GrowingNode.m */,
-				34B9223726B0039A00A01762 /* UIImageView+GrowingNode.m */,
-				34B9223826B0039A00A01762 /* UILabel+GrowingNode.h */,
-				34B9223926B0039A00A01762 /* UITabBarController+GrowingNode.m */,
-				34B9223A26B0039A00A01762 /* UINavigationController+GrowingNode.h */,
-				34B9223B26B0039A00A01762 /* UIView+GrowingNode.m */,
-				34B9223C26B0039A00A01762 /* UISegmentedControl+GrowingNode.m */,
-				34B9223D26B0039A00A01762 /* UIViewController+GrowingNode.m */,
-				34B9223E26B0039A00A01762 /* UIControl+GrowingNode.h */,
-				34B9223F26B0039A00A01762 /* UIAlertController+GrowingNode.h */,
-				34B9224026B0039A00A01762 /* UITableView+GrowingNode.h */,
-				34B9224126B0039A00A01762 /* UICollectionView+GrowingNode.m */,
-			);
-			path = Category;
-			sourceTree = "<group>";
-		};
-		34B9224C26B0039A00A01762 /* Private */ = {
-			isa = PBXGroup;
-			children = (
-				34B9224D26B0039A00A01762 /* GrowingPrivateCategory.h */,
-			);
-			path = Private;
-			sourceTree = "<group>";
-		};
-		34B9224E26B0039A00A01762 /* Impression */ = {
-			isa = PBXGroup;
-			children = (
-				34B9224F26B0039A00A01762 /* GrowingImpressionTrack.h */,
-				34B9225026B0039A00A01762 /* GrowingImpressionTrack.m */,
-			);
-			path = Impression;
-			sourceTree = "<group>";
-		};
-		34B9225126B0039A00A01762 /* Event */ = {
-			isa = PBXGroup;
-			children = (
-				34B9225226B0039A00A01762 /* GrowingPageEvent.m */,
-				34B9225326B0039A00A01762 /* GrowingAutotrackEventType.m */,
-				34B9225426B0039A00A01762 /* GrowingViewElementEvent.m */,
-				34B9225526B0039A00A01762 /* GrowingPageCustomEvent.m */,
-				34B9225626B0039A00A01762 /* GrowingPageAttributesEvent.m */,
-				34B9225726B0039A00A01762 /* GrowingPageEvent.h */,
-				34B9225826B0039A00A01762 /* GrowingViewElementEvent.h */,
-				34B9225926B0039A00A01762 /* GrowingAutotrackEventType.h */,
-				34B9225A26B0039A00A01762 /* GrowingPageAttributesEvent.h */,
-				34B9225B26B0039A00A01762 /* GrowingPageCustomEvent.h */,
-			);
-			path = Event;
-			sourceTree = "<group>";
-		};
-		34B9225D26B0039A00A01762 /* Hybrid */ = {
-			isa = PBXGroup;
-			children = (
-				34B9225E26B0039A00A01762 /* GrowingWKWebViewJavascriptBridge.m */,
-				34B9225F26B0039A00A01762 /* GrowingHybridBridgeProvider.m */,
-				34B9226026B0039A00A01762 /* GrowingWebViewJavascriptBridgeConfiguration.h */,
-				34B9226126B0039A00A01762 /* GrowingWKWebViewJavascriptBridge_JS.h */,
-				34B9226226B0039A00A01762 /* GrowingWKWebViewJavascriptBridge.h */,
-				34B9226326B0039A00A01762 /* Events */,
-				34B9226E26B0039A00A01762 /* GrowingWebViewJavascriptBridgeConfiguration.m */,
-				34B9226F26B0039A00A01762 /* GrowingWebViewDomChangedDelegate.h */,
-				34B9227026B0039A00A01762 /* GrowingHybridBridgeProvider.h */,
-				34B9227126B0039A00A01762 /* GrowingWKWebViewJavascriptBridge_JS.m */,
-			);
-			path = Hybrid;
-			sourceTree = "<group>";
-		};
-		34B9226326B0039A00A01762 /* Events */ = {
-			isa = PBXGroup;
-			children = (
-				34B9226426B0039A00A01762 /* GrowingHybridCustomEvent.m */,
-				34B9226526B0039A00A01762 /* GrowingHybridPageAttributesEvent.m */,
-				34B9226626B0039A00A01762 /* GrowingHybridEventType.h */,
-				34B9226726B0039A00A01762 /* GrowingHybridViewElementEvent.m */,
-				34B9226826B0039A00A01762 /* GrowingHybridPageEvent.h */,
-				34B9226926B0039A00A01762 /* GrowingHybridEventType.m */,
-				34B9226A26B0039A00A01762 /* GrowingHybridPageAttributesEvent.h */,
-				34B9226B26B0039A00A01762 /* GrowingHybridCustomEvent.h */,
-				34B9226C26B0039A00A01762 /* GrowingHybridPageEvent.m */,
-				34B9226D26B0039A00A01762 /* GrowingHybridViewElementEvent.h */,
-			);
-			path = Events;
-			sourceTree = "<group>";
-		};
-		34B9227226B0039A00A01762 /* GrowingAutotracker */ = {
-			isa = PBXGroup;
-			children = (
-				34B9227326B0039A00A01762 /* GrowingAutotracker.h */,
-				34B9227426B0039A00A01762 /* GrowingAutotracker.m */,
-			);
-			path = GrowingAutotracker;
-			sourceTree = "<group>";
-		};
 		6714D6C9245A2B6A00CE5A4A /* Manual Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -9282,7 +8258,6 @@
 		D810C34C1DF1C36F003427DA /* Third Party */ = {
 			isa = PBXGroup;
 			children = (
-				34B9213126B0039800A01762 /* GrowingAnalytics */,
 				004280F725E6E841004945B3 /* NYTPhotoViewer */,
 				D84DAA081EEEF527008E4B18 /* SWStepSlider */,
 				D8E27B9C1F82AFE600F9D2B3 /* RMessage */,
@@ -11515,7 +10490,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8361474B24223689003E49D3 /* ArticleViewController+Announcements.swift in Sources */,
-				34B922AB26B0039B00A01762 /* UIView+GrowingHelper.m in Sources */,
 				B0524B29214854E900D8FD8D /* DescriptionWelcomePanelViewController.swift in Sources */,
 				7A1C498F227254EC00230ED2 /* InsertMediaSearchViewController.swift in Sources */,
 				D8A6BAED1E4C9BF400A981C8 /* UserLocationAnnotationView.swift in Sources */,
@@ -11534,14 +10508,12 @@
 				830D71CF1F704DD40080078B /* ArticleFetchedResultsViewController.swift in Sources */,
 				6747117E250703BB00287951 /* ArticleAsLivingDocReferenceCollectionViewCell.swift in Sources */,
 				B0EFCD6D1EBF12E5008F36E5 /* LibrariesUsed.swift in Sources */,
-				34B9229126B0039B00A01762 /* GrowingStatusBar.m in Sources */,
 				67DC5BE923A03FE700B03A84 /* ArticleToolbarController.swift in Sources */,
 				B0CD9DD61F70997300051843 /* WMFWelcomeAnimationView.swift in Sources */,
 				67E2E48F250452E60070F12D /* ArticleAsLivingDocHeaderView.swift in Sources */,
 				B0524B6F214854E900D8FD8D /* DescriptionWelcomeContentsViewController.swift in Sources */,
 				67F73E752267B9070079DEEF /* TalkPageReplyListViewController.swift in Sources */,
 				67E8B0742268DA8B00537BC9 /* TalkPageTopicCell.swift in Sources */,
-				34B922E026B0039B00A01762 /* UIControl+GrowingNode.m in Sources */,
 				B0F92C6F1E3C580900B72802 /* WMFCaptchaResetter.swift in Sources */,
 				830D71C31F703C980080078B /* ArticleURLListViewController.swift in Sources */,
 				7A7AC84621B6B89B003B849B /* SectionEditorViewController.swift in Sources */,
@@ -11557,25 +10529,18 @@
 				B0ACB13321265B930078C136 /* WMFImageGalleryDescriptionTextView.swift in Sources */,
 				53A575FA2602C845009835E6 /* WMFAppViewController+Extensions.swift in Sources */,
 				B0C7A0801F710E94008415E7 /* WMFWelcomeLanguagesAnimationBackgroundView.swift in Sources */,
-				34B9227D26B0039B00A01762 /* GrowingSRWebSocket.m in Sources */,
 				8382F8D320D928BF00AE5250 /* ColumnarCollectionViewControllerLayoutCache.swift in Sources */,
-				34B9228326B0039B00A01762 /* GrowingEventRequestAdapter.m in Sources */,
 				D88FCADF1E4B74D300505A9F /* WikidataFetcher+Places.swift in Sources */,
 				B0432344210680A900A9A6B6 /* WMFContentGroupKind+FeedCustomization.swift in Sources */,
 				FFD7B85924B3CA7A005C2471 /* ReferenceShowing.swift in Sources */,
 				83F1096E23D0E787003F3E9E /* RandomArticleViewController.swift in Sources */,
 				B0E802BE1C0CD2360065EBC0 /* UIButton+WMFButton.m in Sources */,
-				34B9229026B0039B00A01762 /* GrowingStatusBarEventManager.m in Sources */,
 				7A715661226972DF0066FEC4 /* InsertMediaImageTypeSettingsViewController.swift in Sources */,
-				34B922CA26B0039B00A01762 /* GrowingPage.m in Sources */,
 				7A20AE082057F39C005FB5DF /* UIView+Identifier.swift in Sources */,
 				7A29A5CE1F6C49C600E8F42B /* CollectionViewUpdater.swift in Sources */,
 				B0E803711C0CD9A80065EBC0 /* TableOfContentsAnimator.swift in Sources */,
-				34B922B826B0039B00A01762 /* GrowingTTYLogger.m in Sources */,
 				BA4524181F324C3100439C42 /* FontSizeSliderViewController.swift in Sources */,
-				34B922B226B0039B00A01762 /* UIApplication+GrowingHelper.m in Sources */,
 				B0338A841DBF0AF20012F588 /* WMFReferencePageBackgroundView.swift in Sources */,
-				34B922AA26B0039B00A01762 /* NSData+GrowingHelper.m in Sources */,
 				0042811925E6E841004945B3 /* NYTPhotosOverlayView.m in Sources */,
 				67F73E792267B9510079DEEF /* TalkPageTopicNewViewController.swift in Sources */,
 				B00050141C52D73800515F70 /* UIApplication+RTL.swift in Sources */,
@@ -11585,7 +10550,6 @@
 				7A13A8992028BB3600F28254 /* ReadingListsAlertController.swift in Sources */,
 				D850A53A1F8686DE006FD295 /* WMFThemeableNavigationController.m in Sources */,
 				B083375D1DB16A09002860D2 /* WMFWelcomePanelViewController.swift in Sources */,
-				34B922B926B0039B00A01762 /* GrowingASLLogger.m in Sources */,
 				7A1469C5220BC223000A20F1 /* EditHintController.swift in Sources */,
 				7A610CB7220A30C900C266AE /* HintViewController.swift in Sources */,
 				D84BF62F1DBE616D00E0C85E /* UIViewController+WMFAlerts.swift in Sources */,
@@ -11593,7 +10557,6 @@
 				67CEF263235110F700D5CA6C /* DiffNetworkModels.swift in Sources */,
 				7A23CECF211A24FC00441A79 /* FeedFunnel.swift in Sources */,
 				7A60E9D6215D511500F2D325 /* ReadMoreAboutRevertedEditViewController.swift in Sources */,
-				34B9227B26B0039B00A01762 /* GrowingNetworkManager.m in Sources */,
 				7AC19E322301EF7D00E25B83 /* PageHistoryFilterCountsViewController.swift in Sources */,
 				676070A2227CE60800A81F09 /* TalkPageReplyFooterView.swift in Sources */,
 				BCCB813E1C110702008BC602 /* NSDate+WMFPOTDTitle.m in Sources */,
@@ -11604,11 +10567,9 @@
 				0EE2438D1DC9889B00066CBD /* WMFTableHeaderFooterLabelView.m in Sources */,
 				83B4CDBF20E3DCD6007D5A6E /* SearchViewController.swift in Sources */,
 				D8E6FF6724054FA100686272 /* ArticleViewController+LinkPreviewing.swift in Sources */,
-				34B922F826B0039B00A01762 /* GrowingHybridEventType.m in Sources */,
 				8350FC4C20DA937B00C19D60 /* ArticleLocationAuthorizationCollectionViewCell.swift in Sources */,
 				8382F8C720D844C600AE5250 /* ArticleLocationCollectionViewCell.swift in Sources */,
 				B37B38F01E5F432F00FE11BD /* WMFDatabaseHouseKeeper.swift in Sources */,
-				34B922EE26B0039B00A01762 /* GrowingPageEvent.m in Sources */,
 				6771299424FF775E00E89CA5 /* ArticleAsLivingDocLargeEventCollectionViewCell.swift in Sources */,
 				7A6CA28E2289AF2200C7FD47 /* EditLinkViewController.swift in Sources */,
 				7AEC9859219F529000BEF62B /* DefaultEditToolbarView.swift in Sources */,
@@ -11618,24 +10579,18 @@
 				7A393281236CBDD500A89C2F /* PageHistoryComparisonSelectionViewController.swift in Sources */,
 				D84BF62D1DB96E7C00E0C85E /* NotificationSettingsViewController.swift in Sources */,
 				BA8203E21F15B4CC00925E93 /* ShareActivityController.swift in Sources */,
-				34B922B426B0039B00A01762 /* GrowingWSLoggerFormat.m in Sources */,
 				D808DCEB1E438BE300A3E89C /* PlaceSearchSuggestionController.swift in Sources */,
-				34B9228526B0039B00A01762 /* GrowingFileStorage.m in Sources */,
 				7A8422472268BBE70074648E /* InsertMediaImageInfoView.swift in Sources */,
 				6782DBA32343B7EE003FA21B /* DiffHeaderSummaryView.swift in Sources */,
-				34B9227526B0039B00A01762 /* GrowingTrackConfiguration.m in Sources */,
 				7AFC79F821B0367700BB0C50 /* TextFormattingTableViewController.swift in Sources */,
 				B09B03EB1CE0FB2600009083 /* WMFPageHistoryRevision.m in Sources */,
 				0EF863511C19E4F100006D2D /* WMFEmptyView.m in Sources */,
 				7AE99B2821CC4F420092BE7F /* TextSizeFormattingTableViewController.swift in Sources */,
 				7A715667226974D10066FEC4 /* InsertMediaImageSizeSettingsViewController.swift in Sources */,
-				34B922B126B0039B00A01762 /* NSArray+GrowingHelper.m in Sources */,
 				B02B82751C696ECA00B19309 /* WMFSettingsTableViewCell.m in Sources */,
 				B00DDEDB1DB4B76B00615FA2 /* UIView+WMFSubviews.swift in Sources */,
-				34B922CE26B0039B00A01762 /* GrowingAutotrackConfiguration.m in Sources */,
 				678E7E8126432F060005439C /* NavigationEventsFunnel.swift in Sources */,
 				830ECACF1FBDD8C00080B1EF /* ReadingListsViewController.swift in Sources */,
-				34B922EA26B0039B00A01762 /* GrowingNode.m in Sources */,
 				D82117FC1EE58C080076C040 /* MapAnnotation.swift in Sources */,
 				7AF0265622985CB9000E0A06 /* BeKindInputAccessoryView.swift in Sources */,
 				B0379A2C1D8B756C00D973CF /* WMFReferencePopoverMessageViewController.m in Sources */,
@@ -11651,26 +10606,21 @@
 				B0E803911C0CDABE0065EBC0 /* UIView+WMFSnapshotting.m in Sources */,
 				D818D3811ED7254D0076110D /* ColumnarCollectionViewController.swift in Sources */,
 				672428972362113400490629 /* DiffFetcher.swift in Sources */,
-				34B922DE26B0039B00A01762 /* UITableView+GrowingNode.m in Sources */,
-				34B922A826B0039B00A01762 /* NSURL+GrowingHelper.m in Sources */,
 				83E776A320FFA4D700E26A47 /* DetailTransition.swift in Sources */,
 				671DF9C925F2AE4F0011799E /* WikidataDescriptionController.swift in Sources */,
 				B0E803E61C0CDD450065EBC0 /* UIViewController+WMFStoryboardUtilities.m in Sources */,
 				7A4D227D21B1CD8600D889BD /* TextFormattingTableViewCell.swift in Sources */,
-				34B922C726B0039B00A01762 /* GrowingPageManager.m in Sources */,
 				B0524B75214856A400D8FD8D /* UIViewController+DescriptionWelcomeStoryboard.swift in Sources */,
 				6734115422735788005B31DA /* TalkPageFetcher.swift in Sources */,
 				0ED2E9FA1CB2B3B300D1C844 /* UIVIewController+WMFCommonRotationSupport.swift in Sources */,
 				B0E803CC1C0CDC9B0065EBC0 /* WMFTitleInsetRespectingButton.m in Sources */,
 				B0C6BE571E4526A40033BD6E /* WMFChangePasswordViewController.swift in Sources */,
-				34B922D726B0039B00A01762 /* UITapGestureRecognizer+GrowingAutotracker.m in Sources */,
 				B0C17B9921FAB060009ED5C3 /* AbuseFilterAlertView.swift in Sources */,
 				B0421AA2206991F500C22630 /* SavedTabBarItemProgressBadgeManager.swift in Sources */,
 				B0F4761B21F921D300C4E254 /* EditSummaryViewController.swift in Sources */,
 				B389CFCE1E6F238300483C06 /* WMFMapsActivity.swift in Sources */,
 				7A2BB1D421F27AC5004C0FDF /* WKWebView+iOS12OffsetHack.swift in Sources */,
 				B01E3AF921F986750015B715 /* PreviewWebViewContainer.swift in Sources */,
-				34B922DC26B0039B00A01762 /* UINavigationController+GrowingNode.m in Sources */,
 				7A9524D722669A8B00C55CDC /* InsertMediaSettingsButtonView.swift in Sources */,
 				83B01F7223DA5327001185F4 /* ArticleViewController+ArticleWebMessageHandling.swift in Sources */,
 				7A6ED52120ADBF950001849F /* LoginFunnel.swift in Sources */,
@@ -11679,25 +10629,16 @@
 				83DB4410244A57590046FABE /* RootNavigationController.swift in Sources */,
 				D818FEBB21E39EE2001A7A00 /* CodemirrorSetupUserScript.swift in Sources */,
 				0042812925E6E841004945B3 /* NYTPhotoViewController.m in Sources */,
-				34B922C926B0039B00A01762 /* GrowingPageGroup.m in Sources */,
-				34B9229B26B0039B00A01762 /* GrowingEventDataBase.m in Sources */,
 				BC23E4DD1C223DCB00B5AFDE /* WMFArticleRevisionFetcher.m in Sources */,
 				B0B4CF0A1CC0500E0051DF7A /* WMFArticleLanguagesSectionHeader.m in Sources */,
-				34B922DB26B0039B00A01762 /* GrowingViewNode.m in Sources */,
 				7ABE17352239DCF6006BA309 /* WelcomeAnimationViewController.swift in Sources */,
 				D837CC37231FE9CC00BA6130 /* ThemeableViewController.swift in Sources */,
-				34B922A626B0039B00A01762 /* GrowingAppLifecycle.m in Sources */,
-				34B9228A26B0039B00A01762 /* GrowingUserIdentifier.m in Sources */,
 				7A73B48221E54B4200249E09 /* SectionEditorNavigationItemController.swift in Sources */,
-				34B922A326B0039B00A01762 /* GrowingBaseEvent+SendPolicy.m in Sources */,
 				B0FFFB2A21C9BED1001E787E /* TextFormattingButton.swift in Sources */,
 				7AF6F76622395BEC00949393 /* EditingWelcomeViewController.swift in Sources */,
 				B0524B51214854E900D8FD8D /* DescriptionWelcomeContainerViewController.swift in Sources */,
-				34B9229926B0039B00A01762 /* GrowingLoginUserAttributesEvent.m in Sources */,
 				7AF56C2F21DDEC1C00563A9C /* TextFormattingProviding.swift in Sources */,
 				B0ED17341E4912EB008B70AD /* WMFTwoFactorPasswordViewController.swift in Sources */,
-				34B922C526B0039B00A01762 /* GrowingDebuggerEventQueue.m in Sources */,
-				34B922C126B0039B00A01762 /* GrowingAppDelegateAutotracker.m in Sources */,
 				B0B423611EF9D69C00D3DC4C /* OnThisDayViewController.swift in Sources */,
 				0042813125E6E841004945B3 /* NYTPhotosDataSource.m in Sources */,
 				B0CD9DDA1F70997300051843 /* WMFWelcomeExplorationAnimationView.swift in Sources */,
@@ -11707,7 +10648,6 @@
 				6747118825072D1500287951 /* IconTitleBadge.swift in Sources */,
 				B0016CB921354D9D00FA1096 /* AutoLayoutSafeMultiLineButton.swift in Sources */,
 				B0E807DB1C0CF04A0065EBC0 /* MWKSearchRedirectMapping.m in Sources */,
-				34B922BC26B0039B00A01762 /* GrowingFMDatabase.m in Sources */,
 				BC62FFC01C11064200533DA9 /* MWKImageInfoFetcher+PicOfTheDayInfo.m in Sources */,
 				67DAEDA323CE24DA003AA208 /* SavedArticlesFetcher.swift in Sources */,
 				7A4B333C2136EDED00C6C820 /* UnderlineButton.swift in Sources */,
@@ -11718,23 +10658,16 @@
 				FF2090F02500247100849774 /* ThreeLineHeaderView.swift in Sources */,
 				830AD2B924D1D615003EEFE6 /* WebPageUserScript.swift in Sources */,
 				D80ED25C1EE18D0900CE8C50 /* PlacesSearchSuggestionTableViewCell.swift in Sources */,
-				34B922D526B0039B00A01762 /* UICollectionView+GrowingAutotracker.m in Sources */,
 				B027447D1E6253E200E7B248 /* WMFScrollViewController.swift in Sources */,
 				B0B423681EF9D6D500D3DC4C /* OnThisDayViewControllerHeader.swift in Sources */,
-				34B9227826B0039B00A01762 /* GrowingSwizzle.m in Sources */,
 				83B01F7723DA5348001185F4 /* ArticleViewController+ArticleToolbarHandling.swift in Sources */,
 				7AF8B7422102297A009772CC /* SearchSettingsViewController.swift in Sources */,
 				D8B3D7661EC34F5B00930C21 /* SaveButtonsController.swift in Sources */,
-				34B9229E26B0039B00A01762 /* GrowingCustomEvent.m in Sources */,
 				7ABE17002239B346006BA309 /* WelcomeViewController.swift in Sources */,
-				34B922F526B0039B00A01762 /* GrowingHybridCustomEvent.m in Sources */,
 				832A7A5B23EA138C00D0A750 /* ArticleViewController+References.swift in Sources */,
 				B0524B65214854E900D8FD8D /* DescriptionWelcomeImageViewController.swift in Sources */,
 				7ABE170C2239B5A0006BA309 /* WelcomePageViewController.swift in Sources */,
-				34B9229726B0039B00A01762 /* GrowingPersistenceDataProvider.m in Sources */,
 				B0F9299F1F84789D002A0788 /* WMFWelcomeInitialViewController.swift in Sources */,
-				34B922C426B0039B00A01762 /* GrowingMobileDebugger.m in Sources */,
-				34B922FA26B0039B00A01762 /* GrowingWebViewJavascriptBridgeConfiguration.m in Sources */,
 				6782DBCD2343FDF2003FA21B /* DiffListUneditedCell.swift in Sources */,
 				D8A47C8F23D7338C002AA823 /* ArticleViewController+TableOfContents.swift in Sources */,
 				B09B03ED1CE0FB4200009083 /* PageHistorySection.swift in Sources */,
@@ -11743,25 +10676,17 @@
 				83A642752226CCF1004A1796 /* SwiftKVOCrashWorkaround.swift in Sources */,
 				B0C7A07A1F710E75008415E7 /* WMFWelcomeExplorationAnimationBackgroundView.swift in Sources */,
 				7A827659226E4E41000A2389 /* EditPreviewInternalLinkViewController.swift in Sources */,
-				34B922DF26B0039B00A01762 /* UIAlertController+GrowingNode.m in Sources */,
 				B0E8036D1C0CD98B0065EBC0 /* TableOfContentsViewController.swift in Sources */,
 				B0E805921C0CE2C60065EBC0 /* ProtectedEditAttemptFunnel.m in Sources */,
 				7A9F2776225E3462002119B3 /* InsertMediaSearchResultsCollectionViewController.swift in Sources */,
-				34B922D926B0039B00A01762 /* GrowingViewControllerLifecycle.m in Sources */,
 				B0DF6F811CFE1D0B0046E507 /* WKWebView+WMFWebViewControllerJavascript.m in Sources */,
 				0EC044791C7917860033D773 /* WMFArticleTextActivitySource.m in Sources */,
-				34B922A726B0039B00A01762 /* UIApplication+GrowingNode.m in Sources */,
-				34B922C226B0039B00A01762 /* GrowingDeepLinkHandler.m in Sources */,
-				34B922D426B0039B00A01762 /* WKWebView+GrowingAutotracker.m in Sources */,
 				D82E956A1F156F77007BD960 /* UIView+SubviewEnumeration.swift in Sources */,
 				833D6B48229EE872003CB650 /* TalkPageTopic+Extensions.swift in Sources */,
 				B010E1A81E723E3600CFE1CD /* WMFAuthLinkLabel.swift in Sources */,
-				34B922E726B0039B00A01762 /* UICollectionView+GrowingNode.m in Sources */,
 				BA4524241F32500C00439C42 /* TextSizeChangeExampleViewController.swift in Sources */,
 				BA7683C51F30D86A00A487AA /* ProminentSwitch.swift in Sources */,
 				7A0161E01FE8B4CA00AEDC3D /* TagCollectionViewCell.swift in Sources */,
-				34B9229826B0039B00A01762 /* GrowingEventPersistence.m in Sources */,
-				34B9227626B0039B00A01762 /* GrowingWindow.m in Sources */,
 				83E52BB41F681F940045E776 /* ShareAFactViewController.swift in Sources */,
 				B0267CF31E32A0CB006B6D8D /* WMFPasswordResetter.swift in Sources */,
 				FF921857252E8F4F00C39A8F /* ThanksGiving.swift in Sources */,
@@ -11770,17 +10695,12 @@
 				B08E7E9B1C1FA57A00EC3C99 /* UIViewController+WMFEmptyView.m in Sources */,
 				FFD7B85624B3B384005C2471 /* ReferenceBackLinksViewControllerDelegate.swift in Sources */,
 				B0524B1F214854E900D8FD8D /* DescriptionWelcomeInitialViewController.swift in Sources */,
-				34B9229326B0039B00A01762 /* GrowingDispatchManager.m in Sources */,
 				D80BF0A32347735E00B3B522 /* AppSearchButton.swift in Sources */,
 				8330532E23EF107D00123141 /* MediaListGalleryViewController.swift in Sources */,
-				34B922F926B0039B00A01762 /* GrowingHybridPageEvent.m in Sources */,
-				34B922CB26B0039B00A01762 /* GrowingStatusBarAutotracker.m in Sources */,
-				34B922A026B0039B00A01762 /* GrowingConversionVariableEvent.m in Sources */,
 				83E3E7252440F1FE00AA2E9A /* LoadingAnimationViewController.swift in Sources */,
 				D87914DD1DFA04E10012C5DA /* NSUserDefaults+WMFApplicationDefaults.swift in Sources */,
 				67E0691B223B32F1008550AC /* FocusNavigationView.swift in Sources */,
 				83DAA9B023FEB611002D5716 /* ReferenceBackLinksViewController.swift in Sources */,
-				34B9229426B0039B00A01762 /* GrowingThread.m in Sources */,
 				7A4FE53F1FA00AEF009FA199 /* ArticlePeekPreviewViewController.swift in Sources */,
 				8382F8D920D9371E00AE5250 /* WMFContentGroup+DetailViewControllers.swift in Sources */,
 				D8B1668C1FD97FE000097D8B /* WMFViewController.m in Sources */,
@@ -11791,21 +10711,12 @@
 				B0E806951C0CEA7B0065EBC0 /* AboutViewController.m in Sources */,
 				7A6ED51C20ADBF950001849F /* SettingsFunnel.swift in Sources */,
 				7A71565B226964500066FEC4 /* InsertMediaImagePositionSettingsViewController.swift in Sources */,
-				34B922A926B0039B00A01762 /* NSObject+GrowingIvarHelper.m in Sources */,
-				34B922C026B0039B00A01762 /* GrowingSceneDelegateAutotracker.m in Sources */,
-				34B922AF26B0039B00A01762 /* NSDictionary+GrowingHelper.m in Sources */,
-				34B922D226B0039B00A01762 /* UIViewController+GrowingAutotracker.m in Sources */,
-				34B922AE26B0039B00A01762 /* UIControl+GrowingHelper.m in Sources */,
 				D818D3AB1ED87E8F0076110D /* ArticleLocationCellUpdating.swift in Sources */,
-				34B9228626B0039B00A01762 /* GrowingUserDefaults.m in Sources */,
 				7AFA21BB20110D7900E957E7 /* ReadingListHintViewController.swift in Sources */,
 				83B01F8123DB1235001185F4 /* SectionFetcher.swift in Sources */,
-				34B922EF26B0039B00A01762 /* GrowingAutotrackEventType.m in Sources */,
-				34B9227726B0039B00A01762 /* GrowingAttributesConst.m in Sources */,
 				6782DBD92344EC86003FA21B /* DiffHeaderViewModels.swift in Sources */,
 				B0866F461CCAEBE40088A789 /* WMFArticleLanguagesSectionFooter.m in Sources */,
 				D8533ED51ECF581600E44F86 /* NewsCollectionViewHeader.swift in Sources */,
-				34B922C626B0039B00A01762 /* GrowingRealTracker.m in Sources */,
 				D876769F21E7B73C00491039 /* ToolbarSeparatorView.swift in Sources */,
 				B00DDEDD1DB591C400615FA2 /* WMFWelcomeContainerViewController.swift in Sources */,
 				83F1097323D0F115003F3E9E /* HelpViewController.swift in Sources */,
@@ -11815,7 +10726,6 @@
 				D8E27BA11F82B38100F9D2B3 /* RMessageView.m in Sources */,
 				B0C6BE481E428C940033BD6E /* WMFAccountCreator.swift in Sources */,
 				7ABAD6B420338CFB006A364C /* ReadingListDetailUnderBarViewController.swift in Sources */,
-				34B922C326B0039B00A01762 /* GrowingWebWatcher.m in Sources */,
 				B066F0D51E513DAA00A199F8 /* UIViewController+WMFHideKeyboard.swift in Sources */,
 				832289DB1F7291BA0081A5FB /* SizeThatFitsReusableView.swift in Sources */,
 				8368BB8424129F3D00BC88BA /* ViewController+ArticleErrorHandling.swift in Sources */,
@@ -11824,64 +10734,44 @@
 				7A19C64820DD3440000EF7F7 /* BaseExploreFeedSettingsViewController.swift in Sources */,
 				6782DBD32343FE03003FA21B /* DiffListGroupViewModel.swift in Sources */,
 				67059DB52260D034009811AA /* SchemeHandler.swift in Sources */,
-				34B9227C26B0039B00A01762 /* NSURLSessionDataTask+GrowingURLSessionDataTaskHelper.m in Sources */,
-				34B9229226B0039B00A01762 /* GrowingAlert.m in Sources */,
-				34B922E226B0039B00A01762 /* UIImageView+GrowingNode.m in Sources */,
 				FFE891462445150B0058B642 /* AppTabBarDelegate.swift in Sources */,
-				34B922B626B0039B00A01762 /* GrowingLog.m in Sources */,
 				B069FA2E1CEACB8400083D59 /* WeakScriptMessageDelegate.swift in Sources */,
 				0042812D25E6E841004945B3 /* NYTPhotoCaptionView.m in Sources */,
 				67985A542523D80000EBF353 /* ArticleAsLivingDocController.swift in Sources */,
 				7A35CB871FD82B6300AAF3B7 /* ReadingListDetailViewController.swift in Sources */,
 				7A9A611E21124D0F00403154 /* CreateNewReadingListButtonView.swift in Sources */,
 				D8E6FF7724058AC600686272 /* WMFWebView.m in Sources */,
-				34B9229C26B0039B00A01762 /* GrowingEventGenerator.m in Sources */,
 				B0E294CD1DB2CF4300861D04 /* UIView+Animations.swift in Sources */,
 				7ABE17242239BB54006BA309 /* WelcomePanelViewController.swift in Sources */,
-				34B922C826B0039B00A01762 /* UIViewController+GrowingPageHelper.m in Sources */,
-				34B922E526B0039B00A01762 /* UISegmentedControl+GrowingNode.m in Sources */,
 				B0E8066B1C0CE9030065EBC0 /* MWKLanguageLinkFetcher.m in Sources */,
 				BA6972571F2BA0D900E35F78 /* SettingsTableViewSection.swift in Sources */,
 				7AC19E452301F79700E25B83 /* PageHistoryFilterCountCollectionViewCell.swift in Sources */,
 				0EC0447B1C796FEF0033D773 /* WMFImageTextActivitySource.swift in Sources */,
 				83EE476A20D019A100A21F34 /* ExploreViewController.swift in Sources */,
-				34B9229A26B0039B00A01762 /* GrowingTrackEventType.m in Sources */,
 				B0E805951C0CE2C60065EBC0 /* ToCInteractionFunnel.m in Sources */,
 				675A7CFE227A3F7C0034D9D9 /* TalkPageHeaderView.swift in Sources */,
-				34B922AD26B0039B00A01762 /* NSString+GrowingHelper.m in Sources */,
-				34B922CF26B0039B00A01762 /* UIApplication+GrowingAutotracker.m in Sources */,
-				34B922B526B0039B00A01762 /* GrowingLoggerNames.m in Sources */,
 				7A8422532268DA2C0074648E /* InsertMediaSearchResultPreviewingViewController.swift in Sources */,
-				34B922DA26B0039B00A01762 /* GrowingNodeHelper.m in Sources */,
 				B0BCF0B9202537D800986F72 /* Panels.swift in Sources */,
-				34B922E126B0039B00A01762 /* UIWindow+GrowingNode.m in Sources */,
 				D8E27BA61F82B38500F9D2B3 /* RMessage.m in Sources */,
 				678D79F0235E5979006161FF /* DiffListChangeViewModel.swift in Sources */,
 				B0E8031C1C0CD6820065EBC0 /* WMFCompassView.m in Sources */,
-				34B922B326B0039B00A01762 /* GrowingASLLoggerFormat.m in Sources */,
-				34B922FC26B0039B00A01762 /* GrowingAutotracker.m in Sources */,
 				B0E294D31DB2DC8900861D04 /* WMFWelcomeIntroductionViewController.swift in Sources */,
 				6782DBC72343FDE4003FA21B /* DiffListContextCell.swift in Sources */,
-				34B922A226B0039B00A01762 /* GrowingBaseAttributesEvent.m in Sources */,
 				67B64D572507DE3E00FA27F3 /* ArticleAsLivingDocSectionHeaderView.swift in Sources */,
 				D896C7961D6F2E4E007101DF /* UIImageView+WMFFaceDetectionBasedOnUIApplicationSharedApplication.m in Sources */,
 				83023C0620E51DDF00EC7592 /* SearchLanguagesBarViewController.swift in Sources */,
 				B0C7A0861F710EB1008415E7 /* WMFWelcomeAnalyticsAnimationBackgroundView.swift in Sources */,
-				34B922E926B0039B00A01762 /* GrowingViewClickProvider.m in Sources */,
 				B027447F1E665D9F00E7B248 /* UIViewController+WMFChildViewController.swift in Sources */,
 				B0CD9DD91F70997300051843 /* WMFWelcomeIntroductionAnimationView.swift in Sources */,
 				B0E805591C0CE0DC0065EBC0 /* UIView+WMFFrameUtils.m in Sources */,
 				B00DDEE31DB5B16E00615FA2 /* WMFWelcomeAnimationViewControllers.swift in Sources */,
-				34B922EB26B0039B00A01762 /* GrowingNodeItem.m in Sources */,
 				7AB809DC22679F9300BFAB7C /* InsertMediaAdvancedSettingsViewController.swift in Sources */,
 				B0E803761C0CD9C10065EBC0 /* TableOfContentsCell.swift in Sources */,
 				B0B0EC221C6999A9006F0D9C /* WMFSettingsMenuItem.m in Sources */,
 				7ADF498721B45E42009EA338 /* TextFormattingGroupedToolbarView.swift in Sources */,
 				FFA0641925A943EB00B9460B /* BasicLogger.swift in Sources */,
-				34B9229526B0039B00A01762 /* GrowingVisitorAttributesEvent.m in Sources */,
 				678D79F6235E599B006161FF /* DiffListContextViewModel.swift in Sources */,
 				BA7683C21F30C56300A487AA /* ImageDimmingExampleViewController.swift in Sources */,
-				34B9228026B0039B00A01762 /* GrowingNetworkConfig.m in Sources */,
 				674E8AB92382DEFF0053D206 /* DiffTransformer.swift in Sources */,
 				67A5E657236775C3007749FB /* GlobalUserInfoFetcher.swift in Sources */,
 				83B01F9023DB41BE001185F4 /* ArticleViewController+Sharing.swift in Sources */,
@@ -11892,7 +10782,6 @@
 				D84692E01D5E1E3F000A7058 /* TableOfContentsHeader.swift in Sources */,
 				83F26B2A220B62EC002D87A4 /* SectionEditorButton.swift in Sources */,
 				0EE489031D4ADCA00088505C /* UIViewController+WMFScrollToTop.swift in Sources */,
-				34B9227F26B0039B00A01762 /* GrowingNetworkInterfaceManager.m in Sources */,
 				7A9F060D2266425700856321 /* InsertMediaSettingsViewController.swift in Sources */,
 				7AA96D5C21B733A800DE9877 /* TextFormattingProvidingTableViewController.swift in Sources */,
 				0042811D25E6E841004945B3 /* NYTPhotoTransitionAnimator.m in Sources */,
@@ -11900,33 +10789,22 @@
 				B0EF42D01C43FDD200D125A8 /* UIApplicationShortcutItem+WMFShortcutItem.m in Sources */,
 				B0F92C821E3FFEB900B72802 /* WMFAuthAccountCreationInfoFetcher.swift in Sources */,
 				83F1096923D0DB0F003F3E9E /* ViewController+ArticlePreviewing.swift in Sources */,
-				34B9228226B0039B00A01762 /* GrowingLoginRequest.m in Sources */,
 				7A0FF2CC230343BA00E755D4 /* PageHistoryCollectionViewCell.swift in Sources */,
-				34B922CD26B0039B00A01762 /* GrowingWebCircleElement.m in Sources */,
 				67282FBD24855B7B00B73E20 /* ArticleContextMenuPresenting.swift in Sources */,
 				6707C032237DBCEA0017E7B6 /* DiffRevisionTransition.swift in Sources */,
 				BAFCE8431F1D7FD30077D5E9 /* AppearanceSettingsViewController.swift in Sources */,
 				0EF5BB6D1C110C2100DE75E1 /* AppDelegate.m in Sources */,
 				830C0DD523D9AFBE006471C4 /* UIViewController+Push.swift in Sources */,
 				83023C1120E6561900EC7592 /* ViewControllerTransitionsController.swift in Sources */,
-				34B922F326B0039B00A01762 /* GrowingWKWebViewJavascriptBridge.m in Sources */,
 				D82972831E3950100061550A /* ArticlePlace.swift in Sources */,
 				7ABE173B2239DEF0006BA309 /* WelcomeAnimationView.swift in Sources */,
 				B01CFC611E71069000B3546A /* String?+WMFExtras.swift in Sources */,
 				83927D7B1F70570400051890 /* DisambiguationPagesViewController.swift in Sources */,
-				34B922D326B0039B00A01762 /* UIAlertController+GrowingAutotracker.m in Sources */,
 				B0E803481C0CD7AA0065EBC0 /* WMFSearchResults.m in Sources */,
-				34B922E826B0039B00A01762 /* GrowingViewChangeProvider.m in Sources */,
 				B0DE922B1D6E272B00EC76A7 /* WMFBarButtonItemPopoverMessageViewController.m in Sources */,
-				34B922F426B0039B00A01762 /* GrowingHybridBridgeProvider.m in Sources */,
-				34B922F726B0039B00A01762 /* GrowingHybridViewElementEvent.m in Sources */,
 				6706A21922927D63004774E2 /* TalkPageHintViewController.swift in Sources */,
 				7A0161B41FE85C6000AEDC3D /* ReadingListsCollectionViewCell.swift in Sources */,
-				34B922BA26B0039B00A01762 /* GrowingReachability.m in Sources */,
 				B01490A31DB96E5F007F5391 /* WMFReferencePageViewController.swift in Sources */,
-				34B922D026B0039B00A01762 /* UIView+GrowingAutotracker.m in Sources */,
-				34B922DD26B0039B00A01762 /* UILabel+GrowingNode.m in Sources */,
-				34B922BB26B0039B00A01762 /* GrowingFMDatabasePool.m in Sources */,
 				67F73E6D2267B79E0079DEEF /* AccountViewController.swift in Sources */,
 				8382F8CD20D9206000AE5250 /* ImageCollectionViewCell.swift in Sources */,
 				B0E8065C1C0CE84B0065EBC0 /* WikiTextSectionUploader.m in Sources */,
@@ -11939,30 +10817,20 @@
 				B0D3E70C214AF776007578BA /* DescriptionEditViewController.swift in Sources */,
 				BC23E4E51C22429100B5AFDE /* WMFRevisionQueryResults.m in Sources */,
 				67ADEE9623A2CFFB0000CAF7 /* ArticleWebMessagingController.swift in Sources */,
-				34B922F126B0039B00A01762 /* GrowingPageCustomEvent.m in Sources */,
-				34B9228926B0039B00A01762 /* GrowingArgumentChecker.m in Sources */,
 				0042813925E6E841004945B3 /* NYTScalingImageView.m in Sources */,
-				34B922EC26B0039B00A01762 /* GrowingRealAutotracker.m in Sources */,
-				34B922F026B0039B00A01762 /* GrowingViewElementEvent.m in Sources */,
-				34B922A426B0039B00A01762 /* GrowingEventChannel.m in Sources */,
-				34B9228F26B0039B00A01762 /* GrowingConfigurationManager.m in Sources */,
 				B0845E1120618DA400CDD98E /* SavedProgressViewController.swift in Sources */,
 				B0E802C11C0CD27F0065EBC0 /* WMFAppViewController.m in Sources */,
 				7AFEB3F51FE8511700D7BC57 /* SavedArticlesCollectionViewCell.swift in Sources */,
 				B08624341F72EA1A00B770FD /* WMFWelcomeAnimationBackgroundView.swift in Sources */,
 				B0E805551C0CE0DC0065EBC0 /* UIView+IBExtras.swift in Sources */,
-				34B9228426B0039B00A01762 /* GrowingRequestAdapter.m in Sources */,
 				6782DB912343B6F9003FA21B /* DiffContainerViewController.swift in Sources */,
 				D8E6FF7C2405AAC400686272 /* ArticleViewController+Analytics.swift in Sources */,
-				34B922BD26B0039B00A01762 /* GrowingFMDatabaseAdditions.m in Sources */,
 				D818D3861ED750E40076110D /* ArticleCollectionViewController.swift in Sources */,
-				34B922F226B0039B00A01762 /* GrowingPageAttributesEvent.m in Sources */,
 				B0E805961C0CE2C60065EBC0 /* WMFHamburgerMenuFunnel.m in Sources */,
 				7A9524CB22665E6400C55CDC /* InsertMediaSettingsImageView.swift in Sources */,
 				B09B30D11DB817660012281F /* UIViewController+WMFWelcomeStoryboard.swift in Sources */,
 				8320331B22B90528004A9EDA /* NavigationStateController.swift in Sources */,
 				D8421B53203CC8420040F50B /* DebugReadingListsViewController.swift in Sources */,
-				34B9228826B0039B00A01762 /* GrowingDynamicProxy.m in Sources */,
 				7A71567922699D5B0066FEC4 /* InsertMediaLabelTableFooterView.swift in Sources */,
 				7A48EA0E21B5C9B20083F3DC /* EditToolbarView.swift in Sources */,
 				0042812525E6E841004945B3 /* NYTPhotoTransitionController.m in Sources */,
@@ -11973,27 +10841,19 @@
 				0042813525E6E841004945B3 /* NYTPhotoDismissalInteractionController.m in Sources */,
 				6782DBA92343B7FC003FA21B /* DiffHeaderEditorView.swift in Sources */,
 				7A27E85221B19767001B2D21 /* TextStyleFormattingTableViewController.swift in Sources */,
-				34B922FB26B0039B00A01762 /* GrowingWKWebViewJavascriptBridge_JS.m in Sources */,
-				34B922F626B0039B00A01762 /* GrowingHybridPageAttributesEvent.m in Sources */,
 				7A6ED50D20ADBF950001849F /* SessionsFunnel.swift in Sources */,
 				6798332922C3F28A0073CE6F /* UITextView+Extensions.swift in Sources */,
 				B031032D1F677BEC00E2FCF6 /* WMFWelcomeExplorationViewController.swift in Sources */,
 				7AE99B2E21CC53AB0092BE7F /* TextFontFormattingTableViewController.swift in Sources */,
 				6782DBC12343FDCA003FA21B /* DiffListChangeCell.swift in Sources */,
 				D8703DBF1EE84533001A4BAB /* PreviewingViewController.swift in Sources */,
-				34B922CC26B0039B00A01762 /* GrowingWebCircle.m in Sources */,
 				7A32078821E40193009E1677 /* SectionEditorMenuItemsController.swift in Sources */,
-				34B922A126B0039B00A01762 /* GrowingBaseEvent.m in Sources */,
 				6782DC0B23453D7D003FA21B /* DiffHeaderCompareItemView.swift in Sources */,
 				B04C444B1E56966B00C6DFB0 /* Array<UITextField>+WMFAllFieldsFilled.swift in Sources */,
 				D8940CEF1DB56C8A00E17F9E /* NewsViewController.swift in Sources */,
 				B0E8071F1C0CEC8A0065EBC0 /* main.m in Sources */,
 				0E8DC0951C74F0D700622CBD /* WMFDailyStatsLoggingFunnel.m in Sources */,
-				34B922D626B0039B00A01762 /* UISegmentedControl+GrowingAutotracker.m in Sources */,
-				34B922A526B0039B00A01762 /* GrowingVisitEvent.m in Sources */,
 				D84F2BFC1D2FEE6300963D42 /* WMFRandomDiceButton.m in Sources */,
-				34B922ED26B0039B00A01762 /* GrowingImpressionTrack.m in Sources */,
-				34B922BF26B0039B00A01762 /* GrowingFMResultSet.m in Sources */,
 				67985A862524E05F00EBF353 /* ArticleAsLivingDocHintViewController.swift in Sources */,
 				7A6ED51720ADBF950001849F /* UserHistoryFunnel.swift in Sources */,
 				7A1C4995227265CD00230ED2 /* InsertMediaSelectedImageViewController.swift in Sources */,
@@ -12004,7 +10864,6 @@
 				D84F2C031D30162700963D42 /* WMFFirstRandomViewController.m in Sources */,
 				FF2B2110254B7D6A0009E61A /* ActivityIndicatorCollectionViewFooter.swift in Sources */,
 				7A28126320D3F84A009B42B5 /* FeedCardSettingsViewController.swift in Sources */,
-				34B9228D26B0039B00A01762 /* GrowingSession.m in Sources */,
 				67E466FA241BED770014149B /* EditHistoryCompareFunnel.swift in Sources */,
 				8386BDF62386D735007EE89D /* ViewController+URLHandling.swift in Sources */,
 				8386BDFB2386D754007EE89D /* SinglePageWebViewController.swift in Sources */,
@@ -12014,20 +10873,17 @@
 				B0E8073E1C0CED810065EBC0 /* WMFLogFormatter.m in Sources */,
 				678D79E4235E592F006161FF /* DiffListChangeItemViewModel.swift in Sources */,
 				B0BCF0AB2023AC7700986F72 /* ScrollableEducationPanelViewController.swift in Sources */,
-				34B922D126B0039B00A01762 /* NSNotificationCenter+GrowingAutotracker.m in Sources */,
 				7AB209F922FC67B4006FECB4 /* PageHistoryViewController.swift in Sources */,
 				B0E804DA1C0CE0B40065EBC0 /* NSString+FormattedAttributedString.m in Sources */,
 				B01CFC5F1E70B00100B3546A /* WMFDeleteBackwardReportingTextField.swift in Sources */,
 				B0267CED1E316AE3006B6D8D /* WMFForgotPasswordViewController.swift in Sources */,
 				0E4A34721CBBFCD400A400F6 /* WMFImageGalleryViewController.m in Sources */,
-				34B9228C26B0039B00A01762 /* GrowingTimeUtil.m in Sources */,
 				7AF49F80204EEDCD00578861 /* StorageAndSyncingSettingsViewController.swift in Sources */,
 				6782DC112346920B003FA21B /* DiffContainerViewModel.swift in Sources */,
 				7ADF853623516CF500500ADC /* PageHistoryHintController.swift in Sources */,
 				B0C6BE421E413B3F0033BD6E /* WMFAccountCreationViewController.swift in Sources */,
 				7AB7DEC8227203A600DD61A2 /* InsertMediaViewController.swift in Sources */,
 				7A16C4E6212D941C00F0D5EC /* SubSettingsViewController.swift in Sources */,
-				34B922BE26B0039B00A01762 /* GrowingFMDatabaseQueue.m in Sources */,
 				7A2FE55C20517BAE00F92F8F /* EraseSavedArticlesView.swift in Sources */,
 				B0E804C81C0CE0B40065EBC0 /* NSAttributedString+WMFModify.m in Sources */,
 				83F1096423D0D4F6003F3E9E /* ArticlePreviewingDelegate.swift in Sources */,
@@ -12057,38 +10913,25 @@
 				0E281A331DC263DE00FA1AB1 /* WMFLegacyReference.swift in Sources */,
 				6734115922735832005B31DA /* TalkPagesController.swift in Sources */,
 				7ABAD6BF20349B91006A364C /* Collection.swift in Sources */,
-				34B9229D26B0039B00A01762 /* GrowingEventManager.m in Sources */,
-				34B922E626B0039B00A01762 /* UIViewController+GrowingNode.m in Sources */,
-				34B9227A26B0039B00A01762 /* NSURLSession+GrowingURLSessionHelper.m in Sources */,
 				7A5A0543225FBE0500BBEAC1 /* InsertMediaSearchResultCollectionViewCell.swift in Sources */,
 				671DF9C125F2AE4E0011799E /* ArticleDescriptionControlling.swift in Sources */,
 				67CEF26F2351113000D5CA6C /* DiffController.swift in Sources */,
 				67D3C453228CB54E001D5741 /* TalkPageReplyComposeView.swift in Sources */,
-				34B9227926B0039B00A01762 /* GrowingSwizzler.m in Sources */,
 				7A6F560521AF527A0076D184 /* TextFormattingInputViewController.swift in Sources */,
 				7AC809C521DD1FE100E8B6E1 /* SectionEditorInputViewsController.swift in Sources */,
-				34B922B026B0039B00A01762 /* UIWindow+GrowingHelper.m in Sources */,
 				B083371E1DADB251002860D2 /* WMFWelcomePageViewController.swift in Sources */,
 				6782DBBB2343B861003FA21B /* DiffListViewController.swift in Sources */,
-				34B9228B26B0039B00A01762 /* GrowingKeyChainWrapper.m in Sources */,
-				34B922E326B0039B00A01762 /* UITabBarController+GrowingNode.m in Sources */,
-				34B922E426B0039B00A01762 /* UIView+GrowingNode.m in Sources */,
 				7A29A5C81F6C405900E8F42B /* HistoryViewController.swift in Sources */,
 				D808DCEF1E438C5100A3E89C /* MKCoordinateRegion+Dimensions.swift in Sources */,
-				34B922AC26B0039B00A01762 /* UIImage+GrowingHelper.m in Sources */,
-				34B9228E26B0039B00A01762 /* GrowingApplicationEventManager.m in Sources */,
 				7ADEAB031FD75B9100BB4727 /* AddArticlesToReadingListViewController.swift in Sources */,
 				0EBCA7481C176389004F1FD9 /* WMFAlertManager.swift in Sources */,
 				B083375F1DB17DA5002860D2 /* WMFWelcomeLanguageTableViewController.swift in Sources */,
 				B0408C552127F2C100AC76CE /* WMFImageGalleryGradientViews.swift in Sources */,
-				34B9228126B0039B00A01762 /* GrowingEventRequest.m in Sources */,
 				B0E805911C0CE2C60065EBC0 /* WMFLoginFunnel.m in Sources */,
 				7AF56C3521DE0E2800563A9C /* SectionEditorWebViewMessagingController.swift in Sources */,
 				83C0656B23D23220001821BC /* TableOfContentsItem.swift in Sources */,
 				672F0558222F24FB00FB1084 /* IconBarButtonItem.swift in Sources */,
-				34B9228726B0039B00A01762 /* GrowingDeviceInfo.m in Sources */,
 				D88C70181EE595E90022A26A /* MapView.swift in Sources */,
-				34B922D826B0039B00A01762 /* UITableView+GrowingAutotracker.m in Sources */,
 				7AFEB1BC1FA236A100B8DF32 /* UIViewController+Peekable.swift in Sources */,
 				834CC34B21075B7600F62818 /* UITabBar+Theme.swift in Sources */,
 				D88FCAE11E4B776600505A9F /* MapUtilities.swift in Sources */,
@@ -12107,7 +10950,6 @@
 				7A0DE50020CEEC760032AB57 /* ExploreFeedSettingsViewController.swift in Sources */,
 				B0E805611C0CE0DC0065EBC0 /* WKWebView+ElementLocation.m in Sources */,
 				B09B30CF1DB813760012281F /* UIViewController+WMFStoryboardUtilities.swift in Sources */,
-				34B9229F26B0039B00A01762 /* GrowingDataTraffic.m in Sources */,
 				8330532923EF0B4200123141 /* ArticleViewController+Media.swift in Sources */,
 				B09705B4236B29D7006FDB5C /* DiffThanker.swift in Sources */,
 				B09B03F51CE0FB7700009083 /* ReadingThemesControlsViewController.swift in Sources */,
@@ -12120,11 +10962,8 @@
 				7A203F0B1FDEDCDD00A229EC /* ReadingListHintController.swift in Sources */,
 				B09B03F21CE0FB6300009083 /* PageHistoryFetcher.swift in Sources */,
 				7ABE17182239B8EE006BA309 /* WelcomeContainerViewController.swift in Sources */,
-				34B9229626B0039B00A01762 /* GrowingAppCloseEvent.m in Sources */,
-				34B9227E26B0039B00A01762 /* GrowingLZ4.c in Sources */,
 				B04AE84C21C6475C00CE51D8 /* WKWebViewWithSettableInputViews.swift in Sources */,
 				B0E8058D1C0CE2C60065EBC0 /* CreateAccountFunnel.m in Sources */,
-				34B922B726B0039B00A01762 /* GrowingWSLogger.m in Sources */,
 				83927D811F705B7B00051890 /* SearchResultsViewController.swift in Sources */,
 				67146036243BCE51008CE885 /* ArticleViewController+SurveyAnnouncements.swift in Sources */,
 				7A82896821B3467D005D7EC1 /* TextFormattingDetailTableViewCell.swift in Sources */,

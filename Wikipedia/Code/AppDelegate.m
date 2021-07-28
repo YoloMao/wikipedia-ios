@@ -11,8 +11,8 @@
 static NSTimeInterval const WMFBackgroundFetchInterval = 10800; // 3 Hours
 static NSString *const WMFBackgroundAppRefreshTaskIdentifier = @"org.wikimedia.wikipedia.appRefresh";
 
-#import "GrowingAutotracker.h"
-static NSString *const kGrowingProjectId = @"91eaf9b283361032";
+//#import "GrowingAutotracker.h"
+//static NSString *const kGrowingProjectId = @"91eaf9b283361032";
 
 @interface AppDelegate ()
 
@@ -65,9 +65,9 @@ static NSString *const kGrowingProjectId = @"91eaf9b283361032";
 #pragma mark - UIApplicationDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    GrowingTrackConfiguration *configuration = [GrowingTrackConfiguration configurationWithProjectId:kGrowingProjectId];
-    configuration.debugEnabled = YES;
-    [GrowingAutotracker startWithConfiguration:configuration launchOptions:launchOptions];
+//    GrowingTrackConfiguration *configuration = [GrowingTrackConfiguration configurationWithProjectId:kGrowingProjectId];
+//    configuration.debugEnabled = YES;
+//    [GrowingAutotracker startWithConfiguration:configuration launchOptions:launchOptions];
 
     [self registerBackgroundTasksForApplication:application];
 
