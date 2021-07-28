@@ -18,7 +18,7 @@ extension XCUIElement {
         typeText(text)
         return true
     }
-    func wmf_waitUntilExists(timeout: TimeInterval = 10) -> XCUIElement? {
+    func wmf_waitUntilExists(timeout: TimeInterval = 3) -> XCUIElement? {
         if exists && isHittable {
             return self
         }
@@ -41,7 +41,8 @@ extension XCUIElement {
     }
 
     func wmf_firstStaticText(withTranslationIn keys: [String], convertTranslationSubstitutionStringsToWildcards shouldConvert: Bool = false) -> XCUIElement? {
-        return staticTexts.wmf_firstElement(with: .label, withTranslationIn: keys, convertTranslationSubstitutionStringsToWildcards: shouldConvert)
+//        return staticTexts.wmf_firstElement(with: .label, withTranslationIn: keys, convertTranslationSubstitutionStringsToWildcards: shouldConvert)
+        return staticTexts.wmf_firstElementNotNeedHittable(with: .label, withTranslationIn: keys, convertTranslationSubstitutionStringsToWildcards: shouldConvert)
     }
     @discardableResult func wmf_tapFirstStaticText(withTranslationIn keys: [String], convertTranslationSubstitutionStringsToWildcards shouldConvert: Bool = false) -> Bool {
         if let firstStaticText = wmf_firstStaticText(withTranslationIn: keys, convertTranslationSubstitutionStringsToWildcards: shouldConvert) {
@@ -108,7 +109,12 @@ extension XCUIElement {
         }
     }
     
-    func wmf_scrollElementToTop(element: XCUIElement, yOffset: CGFloat = 0.0) {
+    @discardableResult func wmf_tapStatusBarToTop() -> Bool {
+        XCUIApplication().coordinate(withNormalizedOffset: CGVector(dx: 0.5, dy: 0.0)).tap()
+        return true
+    }
+    
+    func wmf_scrollElementToTop(element: XCUIElement, yOffset: CGFloat = 0.8) {
         let normalizedOffset = CGVector(
             dx: 0.5,
             dy: 0.0 /* 0.0 is important - in case only top of view is above bottom of screen! (if we were scrolling elements to bottom of screen this would need to be 1.0) */
@@ -131,7 +137,6 @@ extension XCUIElement {
         scrollLoop: repeat {
             if let element = descendants(matching: type).wmf_firstElement(with: .label, withTranslationIn: keys, convertTranslationSubstitutionStringsToWildcards: true, timeout: 1) {
                 if let item = items.first(where: {$0.predicate.evaluate(with: element.label)}) {
-                    wmf_scrollElementToTop(element: element, yOffset: yOffset)
                     item.success(element)
                     if let index = keys.firstIndex(of: item.key) {
                         keys.remove(at: index)
@@ -174,6 +179,12 @@ private extension XCUIElementQuery {
         let translations = keys.map{key in WMFLocalizedString(key, value: "", comment: "")} // localization strings are copied into this scheme during a build phase: https://stackoverflow.com/a/38133902/135557
         let predicate = shouldConvert ? propertyType.wildcardPredicate(for: translations) : propertyType.predicate(for: translations)
         return matching(predicate).element(boundBy: 0).wmf_waitUntilExists(timeout: timeout)
+    }
+    
+    func wmf_firstElementNotNeedHittable(with propertyType: ElementPropertyType, withTranslationIn keys: [String], convertTranslationSubstitutionStringsToWildcards shouldConvert: Bool = false, timeout: TimeInterval = 10) -> XCUIElement? {
+        let translations = keys.map{key in WMFLocalizedString(key, value: "", comment: "")} // localization strings are copied into this scheme during a build phase: https://stackoverflow.com/a/38133902/135557
+        let predicate = shouldConvert ? propertyType.wildcardPredicate(for: translations) : propertyType.predicate(for: translations)
+        return matching(predicate).element(boundBy: 0)
     }
 }
 
