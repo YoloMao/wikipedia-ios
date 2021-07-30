@@ -425,10 +425,6 @@ class WikipediaUITests: XCTestCase {
         app.wmf_tapFirstButton(withTranslationIn: ["places-accessibility-show-as-list"])
         wmf_snapshot("Places7")
 
-        // SAVED
-        app.wmf_tapFirstButton(withTranslationIn: ["saved-title"])
-        wmf_snapshot("Saved1")
-
         // HISTORY
         app.wmf_tapFirstButton(withTranslationIn: ["history-title"])
         wmf_snapshot("History1")
@@ -436,5 +432,9 @@ class WikipediaUITests: XCTestCase {
         // SEARCH
         app.wmf_tapFirstButton(withTranslationIn: ["search-title"])
         wmf_snapshot("Search1")
+        
+        // SAVED
+        app.wmf_tapFirstButton(withTranslationIn: ["saved-title"])
+        wmf_snapshot("Saved1")
     }
 }
